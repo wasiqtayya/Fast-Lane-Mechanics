@@ -9,3 +9,14 @@ C:\Users\Dino\Desktop\Github\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.e
 C:\Users\Dino\Desktop\Github\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.pdb
 C:\Users\Dino\Desktop\Github\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loadingForm.resources
 C:\Users\Dino\Desktop\Github\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loginForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.exe.config
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.exe
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.pdb
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.AssemblyReference.cache
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loadingForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loginForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.Properties.Resources.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.GenerateResource.cache
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.CoreCompileInputs.cache
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.exe
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.pdb

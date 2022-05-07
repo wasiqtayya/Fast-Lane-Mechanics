@@ -22,11 +22,6 @@ namespace Fast_Lane_Mechanics
 
         }
 
-        private void progressBar1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             timer1.Enabled = true;
@@ -38,6 +33,16 @@ namespace Fast_Lane_Mechanics
                 form.Show();
                 this.Hide();
             }
+        }
+
+        private void loadingForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void progressBar1_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }
