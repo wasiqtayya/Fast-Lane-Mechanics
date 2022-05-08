@@ -36,5 +36,27 @@ namespace Fast_Lane_Mechanics
         {
 
         }
+
+        private void registerPlateNumber_Click(object sender, EventArgs e)
+        {
+            registrationForm form = new registrationForm();
+            form.Show();
+            this.Hide();
+        }
+
+        private void loginPlateNumber_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Exit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void addNewWorker_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
