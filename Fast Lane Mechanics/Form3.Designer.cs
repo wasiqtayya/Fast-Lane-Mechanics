@@ -63,6 +63,7 @@ namespace Fast_Lane_Mechanics
             this.customerNameTextBox.Name = "customerNameTextBox";
             this.customerNameTextBox.Size = new System.Drawing.Size(295, 27);
             this.customerNameTextBox.TabIndex = 1;
+            this.customerNameTextBox.TextChanged += new System.EventHandler(this.customerNameTextBox_TextChanged);
             // 
             // label1
             // 

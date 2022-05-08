@@ -46,7 +46,15 @@ namespace Fast_Lane_Mechanics
 
         private void loginPlateNumber_Click(object sender, EventArgs e)
         {
-
+            if (registrationPlate.Text.Length != 0)
+            {
+                postLoginForm form = new postLoginForm();
+                this.Hide();
+                form.Show();
+            } else
+            {
+                MessageBox.Show("Enter Plate Number");
+            }
         }
 
         private void Exit_Click(object sender, EventArgs e)
@@ -55,6 +63,14 @@ namespace Fast_Lane_Mechanics
         }
 
         private void addNewWorker_Click(object sender, EventArgs e)
+        {
+            addWorkerForm form = new addWorkerForm();
+            this.Hide();
+            form.Show();
+
+        }
+
+        private void plateNumberLabel_Click(object sender, EventArgs e)
         {
 
         }

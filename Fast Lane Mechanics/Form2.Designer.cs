@@ -37,6 +37,7 @@ namespace Fast_Lane_Mechanics
             this.loginPlateNumber = new System.Windows.Forms.Button();
             this.Exit = new System.Windows.Forms.Button();
             this.addNewWorker = new System.Windows.Forms.Button();
+            this.plateNumberLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.logoImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -46,7 +47,7 @@ namespace Fast_Lane_Mechanics
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.logoImage.Image = ((System.Drawing.Image)(resources.GetObject("logoImage.Image")));
-            this.logoImage.Location = new System.Drawing.Point(152, 63);
+            this.logoImage.Location = new System.Drawing.Point(152, 60);
             this.logoImage.Margin = new System.Windows.Forms.Padding(4);
             this.logoImage.Name = "logoImage";
             this.logoImage.Size = new System.Drawing.Size(133, 123);
@@ -63,7 +64,7 @@ namespace Fast_Lane_Mechanics
             this.loginLabel.AutoSize = true;
             this.loginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginLabel.ForeColor = System.Drawing.Color.Orange;
-            this.loginLabel.Location = new System.Drawing.Point(140, 190);
+            this.loginLabel.Location = new System.Drawing.Point(140, 187);
             this.loginLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.loginLabel.Name = "loginLabel";
             this.loginLabel.Size = new System.Drawing.Size(153, 36);
@@ -85,8 +86,6 @@ namespace Fast_Lane_Mechanics
             this.registrationPlate.Name = "registrationPlate";
             this.registrationPlate.Size = new System.Drawing.Size(277, 29);
             this.registrationPlate.TabIndex = 2;
-            this.registrationPlate.Text = "Enter Plate Number";
-            this.registrationPlate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.registrationPlate.TextChanged += new System.EventHandler(this.registrationPlate_TextChanged);
             // 
             // registerPlateNumber
@@ -141,11 +140,24 @@ namespace Fast_Lane_Mechanics
             this.addNewWorker.UseVisualStyleBackColor = false;
             this.addNewWorker.Click += new System.EventHandler(this.addNewWorker_Click);
             // 
+            // plateNumberLabel
+            // 
+            this.plateNumberLabel.AutoSize = true;
+            this.plateNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.plateNumberLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.plateNumberLabel.Location = new System.Drawing.Point(81, 256);
+            this.plateNumberLabel.Name = "plateNumberLabel";
+            this.plateNumberLabel.Size = new System.Drawing.Size(174, 20);
+            this.plateNumberLabel.TabIndex = 7;
+            this.plateNumberLabel.Text = "Enter Plate Number";
+            this.plateNumberLabel.Click += new System.EventHandler(this.plateNumberLabel_Click);
+            // 
             // loginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(461, 522);
+            this.Controls.Add(this.plateNumberLabel);
             this.Controls.Add(this.addNewWorker);
             this.Controls.Add(this.Exit);
             this.Controls.Add(this.loginPlateNumber);
@@ -174,5 +186,6 @@ namespace Fast_Lane_Mechanics
         private System.Windows.Forms.Button loginPlateNumber;
         private System.Windows.Forms.Button Exit;
         private System.Windows.Forms.Button addNewWorker;
+        private System.Windows.Forms.Label plateNumberLabel;
     }
 }

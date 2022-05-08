@@ -107,11 +107,16 @@ namespace Fast_Lane_Mechanics
             
             if (customerNameTextBox.Text.Length == 0 && plateNumberTextBox.Text.Length == 0)
             {
-                MessageBox.Show("Enter customer name and plate number");
+                MessageBox.Show("Enter Customer Name and Plate Number");
             }else
             {
                 MessageBox.Show("Success");
             }
+        }
+
+        private void customerNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

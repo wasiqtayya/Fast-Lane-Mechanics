@@ -10,11 +10,50 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class Form4 : Form
+    public partial class addWorkerForm : Form
     {
-        public Form4()
+        public addWorkerForm()
         {
             InitializeComponent();
+        }
+
+        private void registerCutomerInfo_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine(workerIdTextBox.Text.Length);
+            if (workerIdTextBox.Text.Length > 0 && workerNameTextBox.Text.Length > 0)
+            {
+             
+                string message = "You are ready to go";
+                string title = "";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    loginForm form = new loginForm();
+                    this.Hide();
+                    form.Show();
+                }
+                else
+                {
+                    // Do something  
+                }
+            }
+            else
+            {
+                MessageBox.Show("Enter Worker ID and Name");
+            }
+        }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            loginForm form = new loginForm();
+            this.Hide();
+            form.Show();
+        }
+
+        private void workerIdTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
