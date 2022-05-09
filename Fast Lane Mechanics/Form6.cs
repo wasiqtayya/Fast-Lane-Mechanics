@@ -10,24 +10,18 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class maintenanceForm : Form
+    public partial class maintenanceChargeForm : Form
     {
-        public maintenanceForm()
+        public maintenanceChargeForm()
         {
             InitializeComponent();
         }
-
-        private void label21_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void nextButton_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void engineBeltPriceLabel_Click(object sender, EventArgs e)
+        private void oilChangeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }

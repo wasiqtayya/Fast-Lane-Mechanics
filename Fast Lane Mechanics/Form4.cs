@@ -29,7 +29,7 @@ namespace Fast_Lane_Mechanics
                 DialogResult result = MessageBox.Show(message, title, buttons);
                 if (result == DialogResult.OK)
                 {
-                    loginForm form = new loginForm();
+                    loginPlateForm form = new loginPlateForm();
                     this.Hide();
                     form.Show();
                 }
@@ -46,7 +46,7 @@ namespace Fast_Lane_Mechanics
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            loginForm form = new loginForm();
+            loginPlateForm form = new loginPlateForm();
             this.Hide();
             form.Show();
         }

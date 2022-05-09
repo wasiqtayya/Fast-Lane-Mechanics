@@ -29,7 +29,7 @@ namespace Fast_Lane_Mechanics
             if (loadingBar.Value ==100)
             {
                 timer1.Enabled = false;
-                loginForm form = new loginForm();
+                userLoginForm form = new userLoginForm();
                 form.Show();
                 this.Hide();
             }

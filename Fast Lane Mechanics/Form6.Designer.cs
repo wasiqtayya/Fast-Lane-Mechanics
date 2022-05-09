@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class maintenanceForm
+    partial class maintenanceChargeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,55 +29,41 @@ namespace Fast_Lane_Mechanics
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(maintenanceForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(maintenanceChargeForm));
             this.maintenanceLabel = new System.Windows.Forms.Label();
             this.maintanancePicture = new System.Windows.Forms.PictureBox();
             this.oilChangeCheckBox = new System.Windows.Forms.CheckBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.oilChangePriceLabel = new System.Windows.Forms.Label();
-            this.airFilterChangePriceLabel = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.airFilterChangeCheckBox = new System.Windows.Forms.CheckBox();
-            this.oilFilterCangePriceLabel = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.oilFilterCheckBox = new System.Windows.Forms.CheckBox();
-            this.brakePadPriceLabel = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.brakePadCheckBox = new System.Windows.Forms.CheckBox();
-            this.clutchPlatePriceLabel = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.clutchPlateCheckBox = new System.Windows.Forms.CheckBox();
-            this.coolantPriceLabel = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.plugsPriceLabel = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.sparkPlugCheckBox = new System.Windows.Forms.CheckBox();
-            this.batteryChangePriceLabel = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.batteryChangeCheckBox = new System.Windows.Forms.CheckBox();
-            this.engineBeltPriceLabel = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.engineBeltCheckBox = new System.Windows.Forms.CheckBox();
-            this.wiperPriceLabel = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.windShieldCheckBox = new System.Windows.Forms.CheckBox();
-            this.shocksPriceLabel = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
             this.shocksCheckBox = new System.Windows.Forms.CheckBox();
-            this.tyresPriceLabel = new System.Windows.Forms.Label();
             this.label22 = new System.Windows.Forms.Label();
             this.tyreRimsCheckBox = new System.Windows.Forms.CheckBox();
-            this.parkingLightsPriceLabel = new System.Windows.Forms.Label();
             this.label24 = new System.Windows.Forms.Label();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.radiatorPriceLabel = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.radiatorCheckBox = new System.Windows.Forms.CheckBox();
-            this.pistonPriceLabel = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.ringPistonCheckBox = new System.Windows.Forms.CheckBox();
             this.nextButton = new System.Windows.Forms.Button();
+            this.backButtonPressed = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.maintanancePicture)).BeginInit();
             this.SuspendLayout();
             // 
@@ -113,6 +99,7 @@ namespace Fast_Lane_Mechanics
             this.oilChangeCheckBox.TabIndex = 7;
             this.oilChangeCheckBox.Text = "OIL CHANGE";
             this.oilChangeCheckBox.UseVisualStyleBackColor = true;
+            this.oilChangeCheckBox.CheckedChanged += new System.EventHandler(this.oilChangeCheckBox_CheckedChanged);
             // 
             // label1
             // 
@@ -124,28 +111,6 @@ namespace Fast_Lane_Mechanics
             this.label1.Size = new System.Drawing.Size(62, 25);
             this.label1.TabIndex = 8;
             this.label1.Text = "Price:";
-            // 
-            // oilChangePriceLabel
-            // 
-            this.oilChangePriceLabel.AutoSize = true;
-            this.oilChangePriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oilChangePriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.oilChangePriceLabel.Location = new System.Drawing.Point(83, 130);
-            this.oilChangePriceLabel.Name = "oilChangePriceLabel";
-            this.oilChangePriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.oilChangePriceLabel.TabIndex = 9;
-            this.oilChangePriceLabel.Text = "2000";
-            // 
-            // airFilterChangePriceLabel
-            // 
-            this.airFilterChangePriceLabel.AutoSize = true;
-            this.airFilterChangePriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.airFilterChangePriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.airFilterChangePriceLabel.Location = new System.Drawing.Point(381, 130);
-            this.airFilterChangePriceLabel.Name = "airFilterChangePriceLabel";
-            this.airFilterChangePriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.airFilterChangePriceLabel.TabIndex = 12;
-            this.airFilterChangePriceLabel.Text = "1500";
             // 
             // label3
             // 
@@ -169,17 +134,6 @@ namespace Fast_Lane_Mechanics
             this.airFilterChangeCheckBox.Text = "AIR FILTER";
             this.airFilterChangeCheckBox.UseVisualStyleBackColor = true;
             // 
-            // oilFilterCangePriceLabel
-            // 
-            this.oilFilterCangePriceLabel.AutoSize = true;
-            this.oilFilterCangePriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oilFilterCangePriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.oilFilterCangePriceLabel.Location = new System.Drawing.Point(670, 130);
-            this.oilFilterCangePriceLabel.Name = "oilFilterCangePriceLabel";
-            this.oilFilterCangePriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.oilFilterCangePriceLabel.TabIndex = 15;
-            this.oilFilterCangePriceLabel.Text = "1500";
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -201,17 +155,6 @@ namespace Fast_Lane_Mechanics
             this.oilFilterCheckBox.TabIndex = 13;
             this.oilFilterCheckBox.Text = "OIL FILTER";
             this.oilFilterCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // brakePadPriceLabel
-            // 
-            this.brakePadPriceLabel.AutoSize = true;
-            this.brakePadPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.brakePadPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.brakePadPriceLabel.Location = new System.Drawing.Point(83, 244);
-            this.brakePadPriceLabel.Name = "brakePadPriceLabel";
-            this.brakePadPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.brakePadPriceLabel.TabIndex = 18;
-            this.brakePadPriceLabel.Text = "2000";
             // 
             // label6
             // 
@@ -235,17 +178,6 @@ namespace Fast_Lane_Mechanics
             this.brakePadCheckBox.Text = "BRAKE PAD";
             this.brakePadCheckBox.UseVisualStyleBackColor = true;
             // 
-            // clutchPlatePriceLabel
-            // 
-            this.clutchPlatePriceLabel.AutoSize = true;
-            this.clutchPlatePriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clutchPlatePriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.clutchPlatePriceLabel.Location = new System.Drawing.Point(381, 244);
-            this.clutchPlatePriceLabel.Name = "clutchPlatePriceLabel";
-            this.clutchPlatePriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.clutchPlatePriceLabel.TabIndex = 21;
-            this.clutchPlatePriceLabel.Text = "2000";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -267,17 +199,6 @@ namespace Fast_Lane_Mechanics
             this.clutchPlateCheckBox.TabIndex = 19;
             this.clutchPlateCheckBox.Text = "CLUTCH PLATE";
             this.clutchPlateCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // coolantPriceLabel
-            // 
-            this.coolantPriceLabel.AutoSize = true;
-            this.coolantPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coolantPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.coolantPriceLabel.Location = new System.Drawing.Point(670, 244);
-            this.coolantPriceLabel.Name = "coolantPriceLabel";
-            this.coolantPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.coolantPriceLabel.TabIndex = 24;
-            this.coolantPriceLabel.Text = "2000";
             // 
             // label10
             // 
@@ -301,17 +222,6 @@ namespace Fast_Lane_Mechanics
             this.checkBox1.Text = "COOLANT FLUID";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // plugsPriceLabel
-            // 
-            this.plugsPriceLabel.AutoSize = true;
-            this.plugsPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plugsPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.plugsPriceLabel.Location = new System.Drawing.Point(83, 359);
-            this.plugsPriceLabel.Name = "plugsPriceLabel";
-            this.plugsPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.plugsPriceLabel.TabIndex = 27;
-            this.plugsPriceLabel.Text = "2000";
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -333,17 +243,6 @@ namespace Fast_Lane_Mechanics
             this.sparkPlugCheckBox.TabIndex = 25;
             this.sparkPlugCheckBox.Text = "SPARK PLUGS";
             this.sparkPlugCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // batteryChangePriceLabel
-            // 
-            this.batteryChangePriceLabel.AutoSize = true;
-            this.batteryChangePriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batteryChangePriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.batteryChangePriceLabel.Location = new System.Drawing.Point(381, 359);
-            this.batteryChangePriceLabel.Name = "batteryChangePriceLabel";
-            this.batteryChangePriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.batteryChangePriceLabel.TabIndex = 30;
-            this.batteryChangePriceLabel.Text = "2000";
             // 
             // label14
             // 
@@ -367,18 +266,6 @@ namespace Fast_Lane_Mechanics
             this.batteryChangeCheckBox.Text = "BATTERY CHANGE";
             this.batteryChangeCheckBox.UseVisualStyleBackColor = true;
             // 
-            // engineBeltPriceLabel
-            // 
-            this.engineBeltPriceLabel.AutoSize = true;
-            this.engineBeltPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.engineBeltPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.engineBeltPriceLabel.Location = new System.Drawing.Point(670, 359);
-            this.engineBeltPriceLabel.Name = "engineBeltPriceLabel";
-            this.engineBeltPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.engineBeltPriceLabel.TabIndex = 33;
-            this.engineBeltPriceLabel.Text = "2000";
-            this.engineBeltPriceLabel.Click += new System.EventHandler(this.engineBeltPriceLabel_Click);
-            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -400,17 +287,6 @@ namespace Fast_Lane_Mechanics
             this.engineBeltCheckBox.TabIndex = 31;
             this.engineBeltCheckBox.Text = "ENGINE BELT";
             this.engineBeltCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // wiperPriceLabel
-            // 
-            this.wiperPriceLabel.AutoSize = true;
-            this.wiperPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.wiperPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.wiperPriceLabel.Location = new System.Drawing.Point(83, 463);
-            this.wiperPriceLabel.Name = "wiperPriceLabel";
-            this.wiperPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.wiperPriceLabel.TabIndex = 36;
-            this.wiperPriceLabel.Text = "2000";
             // 
             // label18
             // 
@@ -434,17 +310,6 @@ namespace Fast_Lane_Mechanics
             this.windShieldCheckBox.Text = "WINDSHIELD WIPERS";
             this.windShieldCheckBox.UseVisualStyleBackColor = true;
             // 
-            // shocksPriceLabel
-            // 
-            this.shocksPriceLabel.AutoSize = true;
-            this.shocksPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shocksPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.shocksPriceLabel.Location = new System.Drawing.Point(381, 463);
-            this.shocksPriceLabel.Name = "shocksPriceLabel";
-            this.shocksPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.shocksPriceLabel.TabIndex = 39;
-            this.shocksPriceLabel.Text = "2000";
-            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -466,18 +331,6 @@ namespace Fast_Lane_Mechanics
             this.shocksCheckBox.TabIndex = 37;
             this.shocksCheckBox.Text = "SHOCKS";
             this.shocksCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // tyresPriceLabel
-            // 
-            this.tyresPriceLabel.AutoSize = true;
-            this.tyresPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tyresPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tyresPriceLabel.Location = new System.Drawing.Point(670, 463);
-            this.tyresPriceLabel.Name = "tyresPriceLabel";
-            this.tyresPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.tyresPriceLabel.TabIndex = 42;
-            this.tyresPriceLabel.Text = "2000";
-            this.tyresPriceLabel.Click += new System.EventHandler(this.label21_Click);
             // 
             // label22
             // 
@@ -501,17 +354,6 @@ namespace Fast_Lane_Mechanics
             this.tyreRimsCheckBox.Text = "TYRES AND RIMS";
             this.tyreRimsCheckBox.UseVisualStyleBackColor = true;
             // 
-            // parkingLightsPriceLabel
-            // 
-            this.parkingLightsPriceLabel.AutoSize = true;
-            this.parkingLightsPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkingLightsPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.parkingLightsPriceLabel.Location = new System.Drawing.Point(83, 568);
-            this.parkingLightsPriceLabel.Name = "parkingLightsPriceLabel";
-            this.parkingLightsPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.parkingLightsPriceLabel.TabIndex = 45;
-            this.parkingLightsPriceLabel.Text = "2000";
-            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -534,17 +376,6 @@ namespace Fast_Lane_Mechanics
             this.checkBox2.Text = "PARKING LIGHTS";
             this.checkBox2.UseVisualStyleBackColor = true;
             // 
-            // radiatorPriceLabel
-            // 
-            this.radiatorPriceLabel.AutoSize = true;
-            this.radiatorPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiatorPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.radiatorPriceLabel.Location = new System.Drawing.Point(381, 568);
-            this.radiatorPriceLabel.Name = "radiatorPriceLabel";
-            this.radiatorPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.radiatorPriceLabel.TabIndex = 48;
-            this.radiatorPriceLabel.Text = "2000";
-            // 
             // label26
             // 
             this.label26.AutoSize = true;
@@ -566,17 +397,6 @@ namespace Fast_Lane_Mechanics
             this.radiatorCheckBox.TabIndex = 46;
             this.radiatorCheckBox.Text = "RADIATOR";
             this.radiatorCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // pistonPriceLabel
-            // 
-            this.pistonPriceLabel.AutoSize = true;
-            this.pistonPriceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pistonPriceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.pistonPriceLabel.Location = new System.Drawing.Point(670, 568);
-            this.pistonPriceLabel.Name = "pistonPriceLabel";
-            this.pistonPriceLabel.Size = new System.Drawing.Size(60, 25);
-            this.pistonPriceLabel.TabIndex = 51;
-            this.pistonPriceLabel.Text = "2000";
             // 
             // label28
             // 
@@ -614,61 +434,60 @@ namespace Fast_Lane_Mechanics
             this.nextButton.UseVisualStyleBackColor = false;
             this.nextButton.Click += new System.EventHandler(this.nextButton_Click);
             // 
-            // maintenanceForm
+            // backButtonPressed
+            // 
+            this.backButtonPressed.BackColor = System.Drawing.SystemColors.Window;
+            this.backButtonPressed.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backButtonPressed.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.backButtonPressed.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.backButtonPressed.Location = new System.Drawing.Point(27, 653);
+            this.backButtonPressed.Name = "backButtonPressed";
+            this.backButtonPressed.Size = new System.Drawing.Size(125, 42);
+            this.backButtonPressed.TabIndex = 53;
+            this.backButtonPressed.Text = "BACK";
+            this.backButtonPressed.UseVisualStyleBackColor = false;
+            // 
+            // maintenanceChargeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(865, 718);
+            this.Controls.Add(this.backButtonPressed);
             this.Controls.Add(this.nextButton);
-            this.Controls.Add(this.pistonPriceLabel);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.ringPistonCheckBox);
-            this.Controls.Add(this.radiatorPriceLabel);
             this.Controls.Add(this.label26);
             this.Controls.Add(this.radiatorCheckBox);
-            this.Controls.Add(this.parkingLightsPriceLabel);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.tyresPriceLabel);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.tyreRimsCheckBox);
-            this.Controls.Add(this.shocksPriceLabel);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.shocksCheckBox);
-            this.Controls.Add(this.wiperPriceLabel);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.windShieldCheckBox);
-            this.Controls.Add(this.engineBeltPriceLabel);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.engineBeltCheckBox);
-            this.Controls.Add(this.batteryChangePriceLabel);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.batteryChangeCheckBox);
-            this.Controls.Add(this.plugsPriceLabel);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.sparkPlugCheckBox);
-            this.Controls.Add(this.coolantPriceLabel);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.clutchPlatePriceLabel);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.clutchPlateCheckBox);
-            this.Controls.Add(this.brakePadPriceLabel);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.brakePadCheckBox);
-            this.Controls.Add(this.oilFilterCangePriceLabel);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.oilFilterCheckBox);
-            this.Controls.Add(this.airFilterChangePriceLabel);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.airFilterChangeCheckBox);
-            this.Controls.Add(this.oilChangePriceLabel);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.oilChangeCheckBox);
             this.Controls.Add(this.maintanancePicture);
             this.Controls.Add(this.maintenanceLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "maintenanceForm";
+            this.Name = "maintenanceChargeForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form6";
             ((System.ComponentModel.ISupportInitialize)(this.maintanancePicture)).EndInit();
@@ -683,49 +502,35 @@ namespace Fast_Lane_Mechanics
         private System.Windows.Forms.PictureBox maintanancePicture;
         private System.Windows.Forms.CheckBox oilChangeCheckBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label oilChangePriceLabel;
-        private System.Windows.Forms.Label airFilterChangePriceLabel;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox airFilterChangeCheckBox;
-        private System.Windows.Forms.Label oilFilterCangePriceLabel;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.CheckBox oilFilterCheckBox;
-        private System.Windows.Forms.Label brakePadPriceLabel;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.CheckBox brakePadCheckBox;
-        private System.Windows.Forms.Label clutchPlatePriceLabel;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.CheckBox clutchPlateCheckBox;
-        private System.Windows.Forms.Label coolantPriceLabel;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Label plugsPriceLabel;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.CheckBox sparkPlugCheckBox;
-        private System.Windows.Forms.Label batteryChangePriceLabel;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.CheckBox batteryChangeCheckBox;
-        private System.Windows.Forms.Label engineBeltPriceLabel;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.CheckBox engineBeltCheckBox;
-        private System.Windows.Forms.Label wiperPriceLabel;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.CheckBox windShieldCheckBox;
-        private System.Windows.Forms.Label shocksPriceLabel;
         private System.Windows.Forms.Label label20;
         private System.Windows.Forms.CheckBox shocksCheckBox;
-        private System.Windows.Forms.Label tyresPriceLabel;
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.CheckBox tyreRimsCheckBox;
-        private System.Windows.Forms.Label parkingLightsPriceLabel;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.Label radiatorPriceLabel;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.CheckBox radiatorCheckBox;
-        private System.Windows.Forms.Label pistonPriceLabel;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.CheckBox ringPistonCheckBox;
         private System.Windows.Forms.Button nextButton;
+        private System.Windows.Forms.Button backButtonPressed;
     }
 }

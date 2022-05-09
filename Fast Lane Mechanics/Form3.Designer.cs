@@ -55,6 +55,7 @@ namespace Fast_Lane_Mechanics
             this.customerNameLabel.Size = new System.Drawing.Size(144, 20);
             this.customerNameLabel.TabIndex = 0;
             this.customerNameLabel.Text = "Customer Name";
+            this.customerNameLabel.Click += new System.EventHandler(this.customerNameLabel_Click);
             // 
             // customerNameTextBox
             // 
@@ -75,6 +76,7 @@ namespace Fast_Lane_Mechanics
             this.label1.Size = new System.Drawing.Size(174, 20);
             this.label1.TabIndex = 2;
             this.label1.Text = "Enter Plate Number";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // plateNumberTextBox
             // 
@@ -83,6 +85,7 @@ namespace Fast_Lane_Mechanics
             this.plateNumberTextBox.Name = "plateNumberTextBox";
             this.plateNumberTextBox.Size = new System.Drawing.Size(295, 27);
             this.plateNumberTextBox.TabIndex = 3;
+            this.plateNumberTextBox.TextChanged += new System.EventHandler(this.plateNumberTextBox_TextChanged);
             // 
             // label2
             // 
@@ -281,6 +284,7 @@ namespace Fast_Lane_Mechanics
             this.Name = "registrationForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration Form";
+            this.Load += new System.EventHandler(this.registrationForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

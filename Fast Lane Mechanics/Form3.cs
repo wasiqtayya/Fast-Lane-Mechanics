@@ -97,7 +97,7 @@ namespace Fast_Lane_Mechanics
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            loginForm form = new loginForm();
+            loginPlateForm form = new loginPlateForm();
             form.Show();
             this.Hide();
         }
@@ -115,6 +115,27 @@ namespace Fast_Lane_Mechanics
         }
 
         private void customerNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void registrationForm_Load(object sender, EventArgs e)
+        {
+
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void plateNumberTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void customerNameLabel_Click(object sender, EventArgs e)
         {
 
         }

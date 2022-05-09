@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class loginForm : Form
+    public partial class loginPlateForm : Form
     {
-        public loginForm()
+        public loginPlateForm()
         {
             InitializeComponent();
         }

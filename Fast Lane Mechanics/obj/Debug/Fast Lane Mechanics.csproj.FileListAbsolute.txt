@@ -14,7 +14,6 @@ C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\bin\Debug\Fast Lane Mecha
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.pdb
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.AssemblyReference.cache
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loadingForm.resources
-C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loginForm.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.Properties.Resources.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.GenerateResource.cache
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.CoreCompileInputs.cache
@@ -23,4 +22,6 @@ C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast Lane Mecha
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.registrationForm.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.addWorkerForm.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.postLoginForm.resources
-C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.maintenanceForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.userLoginForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.loginPlateForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.maintenanceChargeForm.resources
