@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class loginPlateForm
+    partial class PlateNumberLoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Fast_Lane_Mechanics
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(loginPlateForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PlateNumberLoginForm));
             this.logoImage = new System.Windows.Forms.PictureBox();
             this.loginLabel = new System.Windows.Forms.Label();
             this.registrationPlate = new System.Windows.Forms.TextBox();
@@ -46,11 +46,11 @@ namespace Fast_Lane_Mechanics
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.logoImage.Image = ((System.Drawing.Image)(resources.GetObject("logoImage.Image")));
-            this.logoImage.Location = new System.Drawing.Point(152, 54);
+            this.logoImage.Location = new System.Drawing.Point(152, 40);
             this.logoImage.Margin = new System.Windows.Forms.Padding(4);
             this.logoImage.Name = "logoImage";
-            this.logoImage.Size = new System.Drawing.Size(133, 123);
-            this.logoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.logoImage.Size = new System.Drawing.Size(120, 120);
+            this.logoImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.logoImage.TabIndex = 0;
             this.logoImage.TabStop = false;
             this.logoImage.Click += new System.EventHandler(this.logoImage_Click);
@@ -63,7 +63,7 @@ namespace Fast_Lane_Mechanics
             this.loginLabel.AutoSize = true;
             this.loginLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.loginLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.loginLabel.Location = new System.Drawing.Point(101, 181);
+            this.loginLabel.Location = new System.Drawing.Point(101, 183);
             this.loginLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.loginLabel.Name = "loginLabel";
             this.loginLabel.Size = new System.Drawing.Size(235, 36);
@@ -77,10 +77,9 @@ namespace Fast_Lane_Mechanics
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.registrationPlate.BackColor = System.Drawing.SystemColors.Window;
-            this.registrationPlate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.registrationPlate.Font = new System.Drawing.Font("Lucida Console", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.registrationPlate.ForeColor = System.Drawing.SystemColors.Window;
-            this.registrationPlate.Location = new System.Drawing.Point(85, 277);
+            this.registrationPlate.ForeColor = System.Drawing.SystemColors.WindowText;
+            this.registrationPlate.Location = new System.Drawing.Point(85, 279);
             this.registrationPlate.Margin = new System.Windows.Forms.Padding(4);
             this.registrationPlate.Name = "registrationPlate";
             this.registrationPlate.Size = new System.Drawing.Size(277, 29);
@@ -92,7 +91,7 @@ namespace Fast_Lane_Mechanics
             this.plateNumberLabel.AutoSize = true;
             this.plateNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plateNumberLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.plateNumberLabel.Location = new System.Drawing.Point(81, 250);
+            this.plateNumberLabel.Location = new System.Drawing.Point(81, 252);
             this.plateNumberLabel.Name = "plateNumberLabel";
             this.plateNumberLabel.Size = new System.Drawing.Size(174, 20);
             this.plateNumberLabel.TabIndex = 7;
@@ -105,12 +104,13 @@ namespace Fast_Lane_Mechanics
             this.enterPlateButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterPlateButton.ForeColor = System.Drawing.SystemColors.Desktop;
             this.enterPlateButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.enterPlateButton.Location = new System.Drawing.Point(146, 372);
+            this.enterPlateButton.Location = new System.Drawing.Point(146, 383);
             this.enterPlateButton.Name = "enterPlateButton";
             this.enterPlateButton.Size = new System.Drawing.Size(125, 42);
             this.enterPlateButton.TabIndex = 13;
             this.enterPlateButton.Text = "Enter";
             this.enterPlateButton.UseVisualStyleBackColor = false;
+            this.enterPlateButton.Click += new System.EventHandler(this.enterPlateButton_Click);
             // 
             // exitButton
             // 
@@ -118,12 +118,13 @@ namespace Fast_Lane_Mechanics
             this.exitButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitButton.ForeColor = System.Drawing.SystemColors.Desktop;
             this.exitButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.exitButton.Location = new System.Drawing.Point(282, 433);
+            this.exitButton.Location = new System.Drawing.Point(282, 444);
             this.exitButton.Name = "exitButton";
             this.exitButton.Size = new System.Drawing.Size(80, 42);
             this.exitButton.TabIndex = 14;
             this.exitButton.Text = "Exit";
             this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // button2
             // 
@@ -131,14 +132,15 @@ namespace Fast_Lane_Mechanics
             this.button2.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(237, 313);
+            this.button2.Location = new System.Drawing.Point(237, 324);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 42);
             this.button2.TabIndex = 15;
             this.button2.Text = "Register";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // loginPlateForm
+            // PlateNumberLoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -152,7 +154,7 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.logoImage);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
-            this.Name = "loginPlateForm";
+            this.Name = "PlateNumberLoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "LoginForm";
             this.Load += new System.EventHandler(this.loginForm_Load);

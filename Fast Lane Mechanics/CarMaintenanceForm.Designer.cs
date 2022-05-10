@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class postLoginForm
+    partial class CarMaintenanceForm
     {
         /// <summary>
         /// Required designer variable.
@@ -103,7 +103,7 @@ namespace Fast_Lane_Mechanics
             this.bothButton.UseVisualStyleBackColor = false;
             this.bothButton.Click += new System.EventHandler(this.bothButton_Click);
             // 
-            // postLoginForm
+            // CarMaintenanceForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -114,7 +114,7 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.customerNameTextBox);
             this.Controls.Add(this.customerNameLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "postLoginForm";
+            this.Name = "CarMaintenanceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form5";
             this.ResumeLayout(false);

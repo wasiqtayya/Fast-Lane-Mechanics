@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class userLoginForm
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace Fast_Lane_Mechanics
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(userLoginForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoginForm));
             this.usernameTextBox = new System.Windows.Forms.TextBox();
             this.usernameLabel = new System.Windows.Forms.Label();
             this.passwordTextBox = new System.Windows.Forms.TextBox();
@@ -135,7 +135,7 @@ namespace Fast_Lane_Mechanics
             this.loginLabel.TabIndex = 16;
             this.loginLabel.Text = "LOGIN";
             // 
-            // userLoginForm
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -149,7 +149,7 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.usernameTextBox);
             this.Controls.Add(this.usernameLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "userLoginForm";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form7";
             ((System.ComponentModel.ISupportInitialize)(this.blackLogo)).EndInit();

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class addWorkerForm : Form
+    public partial class RegisterWorkerForm : Form
     {
-        public addWorkerForm()
+        public RegisterWorkerForm()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace Fast_Lane_Mechanics
                 DialogResult result = MessageBox.Show(message, title, buttons);
                 if (result == DialogResult.OK)
                 {
-                    loginPlateForm form = new loginPlateForm();
+                    PlateNumberLoginForm form = new PlateNumberLoginForm();
                     this.Hide();
                     form.Show();
                 }
@@ -46,7 +46,7 @@ namespace Fast_Lane_Mechanics
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            loginPlateForm form = new loginPlateForm();
+            PlateNumberLoginForm form = new PlateNumberLoginForm();
             this.Hide();
             form.Show();
         }

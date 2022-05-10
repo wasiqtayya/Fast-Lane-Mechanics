@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class addWorkerForm
+    partial class RegisterWorkerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -104,7 +104,7 @@ namespace Fast_Lane_Mechanics
             this.registerCutomerInfo.UseVisualStyleBackColor = false;
             this.registerCutomerInfo.Click += new System.EventHandler(this.registerCutomerInfo_Click);
             // 
-            // addWorkerForm
+            // RegisterWorkerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -116,7 +116,7 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.workerIdTextBox);
             this.Controls.Add(this.customerNameLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "addWorkerForm";
+            this.Name = "RegisterWorkerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.ResumeLayout(false);
             this.PerformLayout();

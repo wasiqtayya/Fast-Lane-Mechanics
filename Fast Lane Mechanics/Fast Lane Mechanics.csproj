@@ -46,70 +46,85 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AdminForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AdminForm.Designer.cs">
+      <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="WorkerAddForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="WorkerAddForm.Designer.cs">
+      <DependentUpon>WorkerAddForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="SplashForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="SplashForm.Designer.cs">
+      <DependentUpon>SplashForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form4.cs">
+    <Compile Include="PlateNumberLoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form4.Designer.cs">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <Compile Include="PlateNumberLoginForm.Designer.cs">
+      <DependentUpon>PlateNumberLoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form5.cs">
+    <Compile Include="RegisterUserForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form5.Designer.cs">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <Compile Include="RegisterUserForm.Designer.cs">
+      <DependentUpon>RegisterUserForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form6.cs">
+    <Compile Include="RegisterWorkerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form6.Designer.cs">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <Compile Include="RegisterWorkerForm.Designer.cs">
+      <DependentUpon>RegisterWorkerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form7.cs">
+    <Compile Include="CarMaintenanceForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form7.Designer.cs">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <Compile Include="CarMaintenanceForm.Designer.cs">
+      <DependentUpon>CarMaintenanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaintenanceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaintenanceForm.Designer.cs">
+      <DependentUpon>MaintenanceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="AdminForm.resx">
+      <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="SplashForm.resx">
+      <DependentUpon>SplashForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form3.resx">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <EmbeddedResource Include="PlateNumberLoginForm.resx">
+      <DependentUpon>PlateNumberLoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form4.resx">
-      <DependentUpon>Form4.cs</DependentUpon>
+    <EmbeddedResource Include="RegisterUserForm.resx">
+      <DependentUpon>RegisterUserForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form5.resx">
-      <DependentUpon>Form5.cs</DependentUpon>
+    <EmbeddedResource Include="RegisterWorkerForm.resx">
+      <DependentUpon>RegisterWorkerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form6.resx">
-      <DependentUpon>Form6.cs</DependentUpon>
+    <EmbeddedResource Include="CarMaintenanceForm.resx">
+      <DependentUpon>CarMaintenanceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form7.resx">
-      <DependentUpon>Form7.cs</DependentUpon>
+    <EmbeddedResource Include="MaintenanceForm.resx">
+      <DependentUpon>MaintenanceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -120,6 +135,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WorkerAddForm.resx">
+      <DependentUpon>WorkerAddForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

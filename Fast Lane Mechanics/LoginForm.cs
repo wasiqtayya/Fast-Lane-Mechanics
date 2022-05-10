@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class userLoginForm : Form
+    public partial class LoginForm : Form
     {
-        public userLoginForm()
+        public LoginForm()
         {
             InitializeComponent();
         }
@@ -46,7 +46,9 @@ namespace Fast_Lane_Mechanics
             }
             else
             {
-                MessageBox.Show("Success");
+                AdminForm form = new AdminForm();
+                form.Show();
+                this.Hide();
             }
 
 

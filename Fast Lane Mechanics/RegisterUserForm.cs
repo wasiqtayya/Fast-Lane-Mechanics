@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class registrationForm : Form
+    public partial class RegisterUserForm : Form
     {
-        public registrationForm()
+        public RegisterUserForm()
         {
             InitializeComponent();
             carModelLabel.Hide();
@@ -97,7 +97,7 @@ namespace Fast_Lane_Mechanics
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            loginPlateForm form = new loginPlateForm();
+            PlateNumberLoginForm form = new PlateNumberLoginForm();
             form.Show();
             this.Hide();
         }

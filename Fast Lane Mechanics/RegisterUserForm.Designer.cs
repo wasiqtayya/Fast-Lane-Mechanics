@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class registrationForm
+    partial class RegisterUserForm
     {
         /// <summary>
         /// Required designer variable.
@@ -261,7 +261,7 @@ namespace Fast_Lane_Mechanics
             this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
-            // registrationForm
+            // RegisterUserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -281,7 +281,7 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.customerNameTextBox);
             this.Controls.Add(this.customerNameLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "registrationForm";
+            this.Name = "RegisterUserForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Registration Form";
             this.Load += new System.EventHandler(this.registrationForm_Load);

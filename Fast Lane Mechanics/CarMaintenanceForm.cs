@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class postLoginForm : Form
+    public partial class CarMaintenanceForm : Form
     {
-        public postLoginForm()
+        public CarMaintenanceForm()
         {
             InitializeComponent();
         }

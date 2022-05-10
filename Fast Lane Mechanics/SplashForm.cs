@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
-    public partial class loadingForm : Form
+    public partial class SplashForm : Form
     {
-        public loadingForm()
+        public SplashForm()
         {
             InitializeComponent();
         }
@@ -29,7 +29,7 @@ namespace Fast_Lane_Mechanics
             if (loadingBar.Value ==100)
             {
                 timer1.Enabled = false;
-                userLoginForm form = new userLoginForm();
+                LoginForm form = new LoginForm();
                 form.Show();
                 this.Hide();
             }
