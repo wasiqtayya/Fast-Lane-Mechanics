@@ -79,6 +79,7 @@ namespace Fast_Lane_Mechanics
             this.workerListButton.TabIndex = 16;
             this.workerListButton.Text = "Worker List";
             this.workerListButton.UseVisualStyleBackColor = false;
+            this.workerListButton.Click += new System.EventHandler(this.workerListButton_Click);
             // 
             // exitButton
             // 

@@ -52,6 +52,18 @@
     <Compile Include="AdminForm.Designer.cs">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AnimationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimationForm.Designer.cs">
+      <DependentUpon>AnimationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModificationChargeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ModificationChargeForm.Designer.cs">
+      <DependentUpon>ModificationChargeForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="WorkerAddForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -104,6 +116,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimationForm.resx">
+      <DependentUpon>AnimationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ModificationChargeForm.resx">
+      <DependentUpon>ModificationChargeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>

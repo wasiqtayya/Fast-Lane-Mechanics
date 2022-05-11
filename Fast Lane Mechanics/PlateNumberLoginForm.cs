@@ -44,7 +44,9 @@ namespace Fast_Lane_Mechanics
 
         private void exitButton_Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            AdminForm form = new AdminForm();
+            this.Hide();
+            form.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)

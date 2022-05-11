@@ -19,6 +19,25 @@ namespace Fast_Lane_Mechanics
 
         private void backButton_Click(object sender, EventArgs e)
         {
+            AdminForm form = new AdminForm();
+            form.Show();
+            this.Show();
+        }
+
+        private void addButton_Click(object sender, EventArgs e)
+        {
+            RegisterWorkerForm form = new RegisterWorkerForm();
+            form.Show();
+            this.Hide();
+        }
+
+        private void removeButton_Click(object sender, EventArgs e)
+        {
+            workerList.Items.Remove(workerList.SelectedItem);
+        }
+
+        private void workerList_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
         }
     }

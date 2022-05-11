@@ -39,7 +39,15 @@ namespace Fast_Lane_Mechanics
 
         private void getStartedButton_Click(object sender, EventArgs e)
         {
-            PlateNumberLoginForm form = new PlateNumberLoginForm();
+            AnimationForm form = new AnimationForm();
+            form.Show();
+            this.Hide();
+
+        }
+
+        private void workerListButton_Click(object sender, EventArgs e)
+        {
+            WorkerAddForm form = new WorkerAddForm();
             form.Show();
             this.Hide();
 

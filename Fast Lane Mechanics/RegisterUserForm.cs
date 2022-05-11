@@ -110,7 +110,20 @@ namespace Fast_Lane_Mechanics
                 MessageBox.Show("Enter Customer Name and Plate Number");
             }else
             {
-                MessageBox.Show("Success");
+                string message = "Success";
+                string title = "";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                DialogResult result = MessageBox.Show(message, title, buttons);
+                if (result == DialogResult.OK)
+                {
+                    PlateNumberLoginForm form = new PlateNumberLoginForm();
+                    this.Hide();
+                    form.Show();
+                }
+                else
+                {
+                    // Do something  
+                }
             }
         }
 

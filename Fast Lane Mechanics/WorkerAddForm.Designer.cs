@@ -55,10 +55,14 @@ namespace Fast_Lane_Mechanics
             // 
             this.workerList.FormattingEnabled = true;
             this.workerList.ItemHeight = 16;
+            this.workerList.Items.AddRange(new object[] {
+            "10 Absham",
+            "Wasiq"});
             this.workerList.Location = new System.Drawing.Point(22, 97);
             this.workerList.Name = "workerList";
             this.workerList.Size = new System.Drawing.Size(226, 180);
             this.workerList.TabIndex = 18;
+            this.workerList.SelectedIndexChanged += new System.EventHandler(this.workerList_SelectedIndexChanged);
             // 
             // removeButton
             // 
@@ -72,6 +76,7 @@ namespace Fast_Lane_Mechanics
             this.removeButton.TabIndex = 20;
             this.removeButton.Text = "Remove";
             this.removeButton.UseVisualStyleBackColor = false;
+            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // addButton
             // 
@@ -85,6 +90,7 @@ namespace Fast_Lane_Mechanics
             this.addButton.TabIndex = 19;
             this.addButton.Text = "Add";
             this.addButton.UseVisualStyleBackColor = false;
+            this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // backButton
             // 

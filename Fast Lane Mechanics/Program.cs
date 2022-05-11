@@ -16,7 +16,7 @@ namespace Fast_Lane_Mechanics
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new WorkerAddForm());
+            Application.Run(new SplashForm());
         }
     }
 }
