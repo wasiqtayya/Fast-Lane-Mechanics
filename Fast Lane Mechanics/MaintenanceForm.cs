@@ -18,7 +18,18 @@ namespace Fast_Lane_Mechanics
         }
         private void nextButton_Click(object sender, EventArgs e)
         {
-
+            if (Program.index_number == 18)
+            {
+                AnimationForm form = new AnimationForm();
+                form.Show();
+                this.Hide();
+            }
+            else
+            {
+                InvoiveAnimationForm form = new InvoiveAnimationForm();
+                form.Show();
+                this.Hide();
+            }
         }
 
         private void oilChangeCheckBox_CheckedChanged(object sender, EventArgs e)
@@ -357,7 +368,9 @@ namespace Fast_Lane_Mechanics
 
         private void backButtonPressed_Click(object sender, EventArgs e)
         {
-
+            CarMaintenanceForm form = new CarMaintenanceForm();
+            form.Show();
+            this.Hide();
         }
     }
 }

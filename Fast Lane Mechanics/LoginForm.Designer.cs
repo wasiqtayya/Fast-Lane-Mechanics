@@ -152,6 +152,7 @@ namespace Fast_Lane_Mechanics
             this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form7";
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.blackLogo)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

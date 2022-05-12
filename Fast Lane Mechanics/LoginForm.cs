@@ -55,5 +55,10 @@ namespace Fast_Lane_Mechanics
 
             
         }
+
+        private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

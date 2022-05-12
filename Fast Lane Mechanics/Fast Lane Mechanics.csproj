@@ -58,6 +58,24 @@
     <Compile Include="AnimationForm.Designer.cs">
       <DependentUpon>AnimationForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AnimationForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimationForm1.Designer.cs">
+      <DependentUpon>AnimationForm1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinalInvoiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalInvoiceForm.Designer.cs">
+      <DependentUpon>FinalInvoiceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InvoiveAnimationForm.cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InvoiveAnimationForm.cs.Designer.cs">
+      <DependentUpon>InvoiveAnimationForm.cs.cs</DependentUpon>
+    </Compile>
     <Compile Include="ModificationChargeForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,6 +137,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AnimationForm.resx">
       <DependentUpon>AnimationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimationForm1.resx">
+      <DependentUpon>AnimationForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalInvoiceForm.resx">
+      <DependentUpon>FinalInvoiceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InvoiveAnimationForm.cs.resx">
+      <DependentUpon>InvoiveAnimationForm.cs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ModificationChargeForm.resx">
       <DependentUpon>ModificationChargeForm.cs</DependentUpon>

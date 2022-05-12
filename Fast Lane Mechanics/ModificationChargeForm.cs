@@ -137,12 +137,34 @@ namespace Fast_Lane_Mechanics
 
         private void backButtonPressed_Click(object sender, EventArgs e)
         {
-
+            if (Program.index_number == 18)
+            {
+                MaintenanceForm form = new MaintenanceForm();
+                form.Show();
+                this.Hide();
+            }
+            else
+            {
+                CarMaintenanceForm form = new CarMaintenanceForm();
+                form.Show();
+                this.Hide();
+            }
         }
 
         private void nextButton_Click(object sender, EventArgs e)
         {
-
+            if (Program.index_number == 18)
+            {
+                InvoiveAnimationForm form = new InvoiveAnimationForm();
+                form.Show();
+                this.Hide();
+            }
+            else
+            {
+                InvoiveAnimationForm form = new InvoiveAnimationForm();
+                form.Show();
+                this.Hide();
+            }
         }
 
         private void roofRailCheckBox_CheckedChanged(object sender, EventArgs e)

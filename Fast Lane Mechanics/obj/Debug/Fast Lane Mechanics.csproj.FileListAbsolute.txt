@@ -29,3 +29,6 @@ C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mecha
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.WorkerAddForm.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.ModificationChargeForm.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.AnimationForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.AnimationForm1.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.InvoiveAnimationForm.resources
+C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.FinalInvoiceForm.resources

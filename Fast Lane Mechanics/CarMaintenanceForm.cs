@@ -10,6 +10,7 @@ using System.Windows.Forms;
 
 namespace Fast_Lane_Mechanics
 {
+  
     public partial class CarMaintenanceForm : Form
     {
         public CarMaintenanceForm()
@@ -24,7 +25,10 @@ namespace Fast_Lane_Mechanics
 
         private void maintenanceButton_Click(object sender, EventArgs e)
         {
-
+            Program.index_number = maintenanceButton.TabIndex;
+            AnimationForm1 form = new AnimationForm1();
+            form.Show();
+            this.Hide();
         }
 
         private void customerNameLabel_Click(object sender, EventArgs e)
@@ -39,12 +43,18 @@ namespace Fast_Lane_Mechanics
 
         private void modificationButton_Click(object sender, EventArgs e)
         {
-
+            Program.index_number = modificationButton.TabIndex;
+            AnimationForm form = new AnimationForm();
+            form.Show();
+            this.Hide();
         }
 
         private void bothButton_Click(object sender, EventArgs e)
         {
-
+            Program.index_number = bothButton.TabIndex;
+            AnimationForm1 form = new AnimationForm1();
+            form.Show();
+            this.Hide();
         }
     }
 }
