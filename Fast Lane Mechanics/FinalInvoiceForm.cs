@@ -43,7 +43,7 @@ namespace Fast_Lane_Mechanics
             // Setting up our document
             _dlg.Document = _document;
             
-            pdfButton.Visible = false;
+            
             startOverButton.Visible = false;
             printButton.Visible = false;
 
@@ -54,7 +54,7 @@ namespace Fast_Lane_Mechanics
             }
             else
             {
-                pdfButton.Visible = true;
+            
                 startOverButton.Visible = true;
                 printButton.Visible = true;
      
@@ -90,7 +90,9 @@ namespace Fast_Lane_Mechanics
 
         private void startOverButton_Click(object sender, EventArgs e)
         {
-
+            PlateNumberLoginForm form = new PlateNumberLoginForm();
+            this.Hide();
+            form.Show();
         }
 
         private void usernameLabel_Click(object sender, EventArgs e)

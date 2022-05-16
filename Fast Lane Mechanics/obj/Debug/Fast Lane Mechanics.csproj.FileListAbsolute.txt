@@ -32,3 +32,27 @@ C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mecha
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.AnimationForm1.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.InvoiveAnimationForm.resources
 C:\Users\wasiq\OneDrive\Desktop\c#\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.FinalInvoiceForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.exe.config
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.exe
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\bin\Debug\Fast Lane Mechanics.pdb
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.AssemblyReference.cache
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.SuggestedBindingRedirects.cache
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.AdminForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.AnimationForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.AnimationForm1.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.FinalInvoiceForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.InvoiveAnimationForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.ModificationChargeForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.SplashForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.PlateNumberLoginForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.RegisterUserForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.RegisterWorkerForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.CarMaintenanceForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.MaintenanceForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.LoginForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.Properties.Resources.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast_Lane_Mechanics.WorkerAddForm.resources
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.GenerateResource.cache
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.csproj.CoreCompileInputs.cache
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.exe
+C:\Users\Dino\Desktop\Fast Lane Mechanics\Fast Lane Mechanics\obj\Debug\Fast Lane Mechanics.pdb
