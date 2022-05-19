@@ -118,6 +118,7 @@ namespace Fast_Lane_Mechanics
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "RegisterWorkerForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.RegisterWorkerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

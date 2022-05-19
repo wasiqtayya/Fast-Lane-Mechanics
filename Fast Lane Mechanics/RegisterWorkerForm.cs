@@ -70,5 +70,10 @@ namespace Fast_Lane_Mechanics
 
             }
         }
+
+        private void RegisterWorkerForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -44,9 +44,25 @@ namespace Fast_Lane_Mechanics
              if (loadingBar.Value == 100)
              {
                loadingTimer.Enabled = false;
-            // MaintenanceForm form = new MaintenanceForm();
-            // form.Show();
-            //this.Hide();
+
+                if (Program.index_number == 16)
+                {
+                    FinalInvoiceForm form = new FinalInvoiceForm();
+                    form.Show();
+                    this.Hide();
+                }else if (Program.index_number == 17)
+                {
+                    FinalInvoiceForm form = new FinalInvoiceForm();
+                    form.Show();
+                    this.Hide();
+                }else
+                {
+                    FinalInvoiceForm form = new FinalInvoiceForm();
+                    form.Show();
+                    this.Hide();
+                }
+
+               
             }
         }
     }

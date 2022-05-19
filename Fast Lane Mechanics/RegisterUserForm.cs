@@ -104,12 +104,17 @@ namespace Fast_Lane_Mechanics
 
         private void registerCutomerInfo_Click(object sender, EventArgs e)
         {
-            
-            if (customerNameTextBox.Text.Length == 0 && plateNumberTextBox.Text.Length == 0)
+           if (string.IsNullOrEmpty(customerNameTextBox.Text))
             {
-                MessageBox.Show("Enter Customer Name and Plate Number");
+                MessageBox.Show("Enter Customer Name");
+                return;
+            } else if (string.IsNullOrEmpty(plateNumberTextBox.Text))
+            {
+                MessageBox.Show("Enter Plate Number");
+                return;
             }else
             {
+
                 string message = "Success";
                 string title = "";
                 MessageBoxButtons buttons = MessageBoxButtons.OK;
@@ -124,7 +129,9 @@ namespace Fast_Lane_Mechanics
                 {
                     // Do something  
                 }
+                
             }
+           
         }
 
         private void customerNameTextBox_TextChanged(object sender, EventArgs e)

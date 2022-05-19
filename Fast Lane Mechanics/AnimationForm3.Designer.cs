@@ -1,7 +1,7 @@
 ﻿
 namespace Fast_Lane_Mechanics
 {
-    partial class AnimationForm1
+    partial class AnimationForm3
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Fast_Lane_Mechanics
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnimationForm1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AnimationForm3));
             this.loadingBar = new System.Windows.Forms.ProgressBar();
             this.pleaseWaitLabel = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -44,20 +44,19 @@ namespace Fast_Lane_Mechanics
             this.loadingBar.Name = "loadingBar";
             this.loadingBar.Size = new System.Drawing.Size(338, 30);
             this.loadingBar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
-            this.loadingBar.TabIndex = 5;
+            this.loadingBar.TabIndex = 8;
             this.loadingBar.Click += new System.EventHandler(this.loadingBar_Click);
             // 
             // pleaseWaitLabel
             // 
             this.pleaseWaitLabel.AutoSize = true;
             this.pleaseWaitLabel.Font = new System.Drawing.Font("Bahnschrift SemiBold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pleaseWaitLabel.Location = new System.Drawing.Point(108, 451);
+            this.pleaseWaitLabel.Location = new System.Drawing.Point(116, 442);
             this.pleaseWaitLabel.Name = "pleaseWaitLabel";
-            this.pleaseWaitLabel.Size = new System.Drawing.Size(212, 58);
-            this.pleaseWaitLabel.TabIndex = 4;
-            this.pleaseWaitLabel.Text = "We are Gearing Up\r\nPlease Wait!\r\n";
+            this.pleaseWaitLabel.Size = new System.Drawing.Size(227, 58);
+            this.pleaseWaitLabel.TabIndex = 7;
+            this.pleaseWaitLabel.Text = "GOOD TO GO\r\nTHANKS FOR VISIT!!";
             this.pleaseWaitLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.pleaseWaitLabel.Click += new System.EventHandler(this.pleaseWaitLabel_Click);
             // 
             // pictureBox1
             // 
@@ -66,16 +65,15 @@ namespace Fast_Lane_Mechanics
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(338, 348);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 3;
+            this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // loadingTimer
             // 
             this.loadingTimer.Enabled = true;
             this.loadingTimer.Tick += new System.EventHandler(this.loadingTimer_Tick);
             // 
-            // AnimationForm1
+            // AnimationForm3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -84,9 +82,9 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.pleaseWaitLabel);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "AnimationForm1";
+            this.Name = "AnimationForm3";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "AnimationForm1";
+            this.Text = "AnimationForm3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

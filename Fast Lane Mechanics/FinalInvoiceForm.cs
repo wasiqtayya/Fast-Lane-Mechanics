@@ -30,43 +30,33 @@ namespace Fast_Lane_Mechanics
         private void printButton_Click(object sender, EventArgs e)
         {
 
-            // Create document
-            PrintDocument _document = new PrintDocument();
-            // Add print handler
-            _document.PrintPage += new PrintPageEventHandler(printDocument1_PrintPage_1);
-            // Create the dialog to display results
-            PrintPreviewDialog _dlg = new PrintPreviewDialog();
-            _dlg.ClientSize = new System.Drawing.Size(Width / 2, Height / 2);
-            _dlg.Location = new System.Drawing.Point(Left, Top);
-            _dlg.MinimumSize = new System.Drawing.Size(375, 250);
-            _dlg.UseAntiAlias = true;
-            // Setting up our document
-            _dlg.Document = _document;
-            
-            
+            PrintDialog printDialog1 = new PrintDialog();
+            printDialog1.Document = printDocument1;
+
             startOverButton.Visible = false;
             printButton.Visible = false;
 
-
-            if (_dlg.ShowDialog() == DialogResult.OK)
+            DialogResult result = printDialog1.ShowDialog();
+            if (result == DialogResult.OK)
             {
-                _document.Print();
+               
+                printDocument1.Print();
+                
             }
             else
             {
-            
-                startOverButton.Visible = true;
-                printButton.Visible = true;
-     
+                
+                printDocument1.Dispose();
             }
-         
-            _document.Dispose();
+            startOverButton.Visible = true;
+            printButton.Visible = true;
+
 
         }
 
         private void FinalInvoiceForm_Load(object sender, EventArgs e)
         {
-            
+           
         }
         
 
@@ -90,7 +80,7 @@ namespace Fast_Lane_Mechanics
 
         private void startOverButton_Click(object sender, EventArgs e)
         {
-            PlateNumberLoginForm form = new PlateNumberLoginForm();
+            AnimationForm3 form = new AnimationForm3();
             this.Hide();
             form.Show();
         }

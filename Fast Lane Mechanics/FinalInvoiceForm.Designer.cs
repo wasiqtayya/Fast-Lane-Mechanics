@@ -77,7 +77,7 @@ namespace Fast_Lane_Mechanics
             // 
             this.currentDateLabel.AutoSize = true;
             this.currentDateLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentDateLabel.Location = new System.Drawing.Point(927, 191);
+            this.currentDateLabel.Location = new System.Drawing.Point(915, 192);
             this.currentDateLabel.Name = "currentDateLabel";
             this.currentDateLabel.Size = new System.Drawing.Size(94, 22);
             this.currentDateLabel.TabIndex = 20;
@@ -89,7 +89,7 @@ namespace Fast_Lane_Mechanics
             // 
             this.dateLabel.AutoSize = true;
             this.dateLabel.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dateLabel.Location = new System.Drawing.Point(863, 191);
+            this.dateLabel.Location = new System.Drawing.Point(851, 191);
             this.dateLabel.Name = "dateLabel";
             this.dateLabel.Size = new System.Drawing.Size(58, 23);
             this.dateLabel.TabIndex = 19;

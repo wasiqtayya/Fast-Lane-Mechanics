@@ -35,6 +35,8 @@ namespace Fast_Lane_Mechanics
         private void exitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+
+            
         }
 
         private void getStartedButton_Click(object sender, EventArgs e)

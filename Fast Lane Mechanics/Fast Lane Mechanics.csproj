@@ -64,6 +64,12 @@
     <Compile Include="AnimationForm1.Designer.cs">
       <DependentUpon>AnimationForm1.cs</DependentUpon>
     </Compile>
+    <Compile Include="AnimationForm3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnimationForm3.Designer.cs">
+      <DependentUpon>AnimationForm3.cs</DependentUpon>
+    </Compile>
     <Compile Include="FinalInvoiceForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,6 +146,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AnimationForm1.resx">
       <DependentUpon>AnimationForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnimationForm3.resx">
+      <DependentUpon>AnimationForm3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FinalInvoiceForm.resx">
       <DependentUpon>FinalInvoiceForm.cs</DependentUpon>

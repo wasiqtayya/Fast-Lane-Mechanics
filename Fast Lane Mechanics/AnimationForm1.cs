@@ -34,5 +34,15 @@ namespace Fast_Lane_Mechanics
         {
 
         }
+
+        private void loadingBar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pleaseWaitLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
