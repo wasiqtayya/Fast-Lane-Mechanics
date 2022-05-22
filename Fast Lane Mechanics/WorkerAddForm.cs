@@ -21,7 +21,7 @@ namespace Fast_Lane_Mechanics
         {
             AdminForm form = new AdminForm();
             form.Show();
-            this.Show();
+            this.Hide();
         }
 
         private void addButton_Click(object sender, EventArgs e)

@@ -18,17 +18,114 @@ namespace Fast_Lane_Mechanics
         }
         private void nextButton_Click(object sender, EventArgs e)
         {
-            if (Program.index_number == 18)
+            if (oilChangeCheckBox.Checked == true || airFilterChangeCheckBox.Checked == true || oilChangeCheckBox.Checked == true || brakePadCheckBox.Checked == true || clutchPlateCheckBox.Checked == true || coolantFluidCheckBox.Checked == true || sparkPlugCheckBox.Checked == true || batteryChangeCheckBox.Checked == true || engineBeltCheckBox.Checked == true || windShieldCheckBox.Checked == true || shocksCheckBox.Checked == true || tyreRimsCheckBox.Checked == true || ringPistonCheckBox.Checked == true || parkingLightsCheckBox.Checked == true || radiatorCheckBox.Checked == true)
             {
-                AnimationForm form = new AnimationForm();
-                form.Show();
-                this.Hide();
+                if (string.IsNullOrEmpty(oilChangePriceTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(airFilterTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(oilFilterTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(brakePadTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(clutchPlateTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(coolantFluidTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(sparkPlugsTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(batteryChangeTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(engineBeltTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(windshieldWipersTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(shocksTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(tyreTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(parkingLightsTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(radiatorTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+
+                if (string.IsNullOrEmpty(ringPistonTextBox.Text))
+                {
+                    MessageBox.Show("Fill The Required Entity");
+                    return;
+                }
+                if (Program.index_number == 18)
+                {
+                    AnimationForm form = new AnimationForm();
+                    form.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    InvoiveAnimationForm form = new InvoiveAnimationForm();
+                    form.Show();
+                    this.Hide();
+                }
             }
             else
             {
-                InvoiveAnimationForm form = new InvoiveAnimationForm();
-                form.Show();
-                this.Hide();
+                MessageBox.Show("You haven't selected anything");
+                return;
             }
         }
 

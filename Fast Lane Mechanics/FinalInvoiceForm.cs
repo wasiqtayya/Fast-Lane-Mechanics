@@ -19,6 +19,9 @@ namespace Fast_Lane_Mechanics
         public FinalInvoiceForm()
         {
             InitializeComponent();
+            string date = DateTime.UtcNow.ToString("dd-MM-yyyy");
+
+            currentDateLabel.Text = date;
         }
        
        

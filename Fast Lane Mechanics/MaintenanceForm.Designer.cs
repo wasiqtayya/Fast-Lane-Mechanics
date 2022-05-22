@@ -72,9 +72,10 @@ namespace Fast_Lane_Mechanics
             this.maintenanceLabel.AutoSize = true;
             this.maintenanceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.maintenanceLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.maintenanceLabel.Location = new System.Drawing.Point(73, 24);
+            this.maintenanceLabel.Location = new System.Drawing.Point(55, 20);
+            this.maintenanceLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.maintenanceLabel.Name = "maintenanceLabel";
-            this.maintenanceLabel.Size = new System.Drawing.Size(214, 38);
+            this.maintenanceLabel.Size = new System.Drawing.Size(180, 31);
             this.maintenanceLabel.TabIndex = 5;
             this.maintenanceLabel.Text = "Maintenance";
             this.maintenanceLabel.Click += new System.EventHandler(this.maintenanceLabel_Click);
@@ -83,9 +84,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.maintanancePicture.Image = ((System.Drawing.Image)(resources.GetObject("maintanancePicture.Image")));
             this.maintanancePicture.InitialImage = null;
-            this.maintanancePicture.Location = new System.Drawing.Point(27, 24);
+            this.maintanancePicture.Location = new System.Drawing.Point(20, 20);
+            this.maintanancePicture.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.maintanancePicture.Name = "maintanancePicture";
-            this.maintanancePicture.Size = new System.Drawing.Size(40, 40);
+            this.maintanancePicture.Size = new System.Drawing.Size(30, 32);
             this.maintanancePicture.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.maintanancePicture.TabIndex = 6;
             this.maintanancePicture.TabStop = false;
@@ -96,9 +98,10 @@ namespace Fast_Lane_Mechanics
             this.oilChangeCheckBox.AutoSize = true;
             this.oilChangeCheckBox.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.oilChangeCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oilChangeCheckBox.Location = new System.Drawing.Point(27, 98);
+            this.oilChangeCheckBox.Location = new System.Drawing.Point(20, 80);
+            this.oilChangeCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.oilChangeCheckBox.Name = "oilChangeCheckBox";
-            this.oilChangeCheckBox.Size = new System.Drawing.Size(165, 30);
+            this.oilChangeCheckBox.Size = new System.Drawing.Size(133, 25);
             this.oilChangeCheckBox.TabIndex = 7;
             this.oilChangeCheckBox.Text = "OIL CHANGE";
             this.oilChangeCheckBox.UseVisualStyleBackColor = true;
@@ -108,9 +111,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.airFilterChangeCheckBox.AutoSize = true;
             this.airFilterChangeCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.airFilterChangeCheckBox.Location = new System.Drawing.Point(325, 98);
+            this.airFilterChangeCheckBox.Location = new System.Drawing.Point(244, 80);
+            this.airFilterChangeCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.airFilterChangeCheckBox.Name = "airFilterChangeCheckBox";
-            this.airFilterChangeCheckBox.Size = new System.Drawing.Size(138, 29);
+            this.airFilterChangeCheckBox.Size = new System.Drawing.Size(116, 24);
             this.airFilterChangeCheckBox.TabIndex = 10;
             this.airFilterChangeCheckBox.Text = "AIR FILTER";
             this.airFilterChangeCheckBox.UseVisualStyleBackColor = true;
@@ -120,9 +124,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.oilFilterCheckBox.AutoSize = true;
             this.oilFilterCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oilFilterCheckBox.Location = new System.Drawing.Point(614, 98);
+            this.oilFilterCheckBox.Location = new System.Drawing.Point(460, 80);
+            this.oilFilterCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.oilFilterCheckBox.Name = "oilFilterCheckBox";
-            this.oilFilterCheckBox.Size = new System.Drawing.Size(138, 29);
+            this.oilFilterCheckBox.Size = new System.Drawing.Size(114, 24);
             this.oilFilterCheckBox.TabIndex = 13;
             this.oilFilterCheckBox.Text = "OIL FILTER";
             this.oilFilterCheckBox.UseVisualStyleBackColor = true;
@@ -132,9 +137,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.brakePadCheckBox.AutoSize = true;
             this.brakePadCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.brakePadCheckBox.Location = new System.Drawing.Point(27, 212);
+            this.brakePadCheckBox.Location = new System.Drawing.Point(20, 172);
+            this.brakePadCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.brakePadCheckBox.Name = "brakePadCheckBox";
-            this.brakePadCheckBox.Size = new System.Drawing.Size(147, 29);
+            this.brakePadCheckBox.Size = new System.Drawing.Size(120, 24);
             this.brakePadCheckBox.TabIndex = 16;
             this.brakePadCheckBox.Text = "BRAKE PAD";
             this.brakePadCheckBox.UseVisualStyleBackColor = true;
@@ -144,9 +150,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.clutchPlateCheckBox.AutoSize = true;
             this.clutchPlateCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clutchPlateCheckBox.Location = new System.Drawing.Point(325, 212);
+            this.clutchPlateCheckBox.Location = new System.Drawing.Point(244, 172);
+            this.clutchPlateCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.clutchPlateCheckBox.Name = "clutchPlateCheckBox";
-            this.clutchPlateCheckBox.Size = new System.Drawing.Size(185, 29);
+            this.clutchPlateCheckBox.Size = new System.Drawing.Size(146, 24);
             this.clutchPlateCheckBox.TabIndex = 19;
             this.clutchPlateCheckBox.Text = "CLUTCH PLATE";
             this.clutchPlateCheckBox.UseVisualStyleBackColor = true;
@@ -156,9 +163,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.coolantFluidCheckBox.AutoSize = true;
             this.coolantFluidCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coolantFluidCheckBox.Location = new System.Drawing.Point(614, 212);
+            this.coolantFluidCheckBox.Location = new System.Drawing.Point(460, 172);
+            this.coolantFluidCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.coolantFluidCheckBox.Name = "coolantFluidCheckBox";
-            this.coolantFluidCheckBox.Size = new System.Drawing.Size(194, 29);
+            this.coolantFluidCheckBox.Size = new System.Drawing.Size(155, 24);
             this.coolantFluidCheckBox.TabIndex = 22;
             this.coolantFluidCheckBox.Text = "COOLANT FLUID";
             this.coolantFluidCheckBox.UseVisualStyleBackColor = true;
@@ -168,9 +176,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.sparkPlugCheckBox.AutoSize = true;
             this.sparkPlugCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sparkPlugCheckBox.Location = new System.Drawing.Point(27, 327);
+            this.sparkPlugCheckBox.Location = new System.Drawing.Point(20, 266);
+            this.sparkPlugCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sparkPlugCheckBox.Name = "sparkPlugCheckBox";
-            this.sparkPlugCheckBox.Size = new System.Drawing.Size(174, 29);
+            this.sparkPlugCheckBox.Size = new System.Drawing.Size(141, 24);
             this.sparkPlugCheckBox.TabIndex = 25;
             this.sparkPlugCheckBox.Text = "SPARK PLUGS";
             this.sparkPlugCheckBox.UseVisualStyleBackColor = true;
@@ -180,9 +189,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.batteryChangeCheckBox.AutoSize = true;
             this.batteryChangeCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batteryChangeCheckBox.Location = new System.Drawing.Point(325, 327);
+            this.batteryChangeCheckBox.Location = new System.Drawing.Point(244, 266);
+            this.batteryChangeCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.batteryChangeCheckBox.Name = "batteryChangeCheckBox";
-            this.batteryChangeCheckBox.Size = new System.Drawing.Size(216, 29);
+            this.batteryChangeCheckBox.Size = new System.Drawing.Size(175, 24);
             this.batteryChangeCheckBox.TabIndex = 28;
             this.batteryChangeCheckBox.Text = "BATTERY CHANGE";
             this.batteryChangeCheckBox.UseVisualStyleBackColor = true;
@@ -192,9 +202,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.engineBeltCheckBox.AutoSize = true;
             this.engineBeltCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.engineBeltCheckBox.Location = new System.Drawing.Point(614, 327);
+            this.engineBeltCheckBox.Location = new System.Drawing.Point(460, 266);
+            this.engineBeltCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.engineBeltCheckBox.Name = "engineBeltCheckBox";
-            this.engineBeltCheckBox.Size = new System.Drawing.Size(163, 29);
+            this.engineBeltCheckBox.Size = new System.Drawing.Size(134, 24);
             this.engineBeltCheckBox.TabIndex = 31;
             this.engineBeltCheckBox.Text = "ENGINE BELT";
             this.engineBeltCheckBox.UseVisualStyleBackColor = true;
@@ -204,9 +215,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.windShieldCheckBox.AutoSize = true;
             this.windShieldCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.windShieldCheckBox.Location = new System.Drawing.Point(27, 431);
+            this.windShieldCheckBox.Location = new System.Drawing.Point(20, 350);
+            this.windShieldCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.windShieldCheckBox.Name = "windShieldCheckBox";
-            this.windShieldCheckBox.Size = new System.Drawing.Size(241, 29);
+            this.windShieldCheckBox.Size = new System.Drawing.Size(199, 24);
             this.windShieldCheckBox.TabIndex = 34;
             this.windShieldCheckBox.Text = "WINDSHIELD WIPERS";
             this.windShieldCheckBox.UseVisualStyleBackColor = true;
@@ -216,9 +228,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.shocksCheckBox.AutoSize = true;
             this.shocksCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shocksCheckBox.Location = new System.Drawing.Point(325, 431);
+            this.shocksCheckBox.Location = new System.Drawing.Point(244, 350);
+            this.shocksCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.shocksCheckBox.Name = "shocksCheckBox";
-            this.shocksCheckBox.Size = new System.Drawing.Size(121, 29);
+            this.shocksCheckBox.Size = new System.Drawing.Size(95, 24);
             this.shocksCheckBox.TabIndex = 37;
             this.shocksCheckBox.Text = "SHOCKS";
             this.shocksCheckBox.UseVisualStyleBackColor = true;
@@ -228,9 +241,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.tyreRimsCheckBox.AutoSize = true;
             this.tyreRimsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tyreRimsCheckBox.Location = new System.Drawing.Point(614, 431);
+            this.tyreRimsCheckBox.Location = new System.Drawing.Point(460, 350);
+            this.tyreRimsCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tyreRimsCheckBox.Name = "tyreRimsCheckBox";
-            this.tyreRimsCheckBox.Size = new System.Drawing.Size(201, 29);
+            this.tyreRimsCheckBox.Size = new System.Drawing.Size(165, 24);
             this.tyreRimsCheckBox.TabIndex = 40;
             this.tyreRimsCheckBox.Text = "TYRES AND RIMS";
             this.tyreRimsCheckBox.UseVisualStyleBackColor = true;
@@ -240,9 +254,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.parkingLightsCheckBox.AutoSize = true;
             this.parkingLightsCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkingLightsCheckBox.Location = new System.Drawing.Point(27, 536);
+            this.parkingLightsCheckBox.Location = new System.Drawing.Point(20, 436);
+            this.parkingLightsCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.parkingLightsCheckBox.Name = "parkingLightsCheckBox";
-            this.parkingLightsCheckBox.Size = new System.Drawing.Size(199, 29);
+            this.parkingLightsCheckBox.Size = new System.Drawing.Size(163, 24);
             this.parkingLightsCheckBox.TabIndex = 43;
             this.parkingLightsCheckBox.Text = "PARKING LIGHTS";
             this.parkingLightsCheckBox.UseVisualStyleBackColor = true;
@@ -252,9 +267,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.radiatorCheckBox.AutoSize = true;
             this.radiatorCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiatorCheckBox.Location = new System.Drawing.Point(325, 536);
+            this.radiatorCheckBox.Location = new System.Drawing.Point(244, 436);
+            this.radiatorCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radiatorCheckBox.Name = "radiatorCheckBox";
-            this.radiatorCheckBox.Size = new System.Drawing.Size(136, 29);
+            this.radiatorCheckBox.Size = new System.Drawing.Size(112, 24);
             this.radiatorCheckBox.TabIndex = 46;
             this.radiatorCheckBox.Text = "RADIATOR";
             this.radiatorCheckBox.UseVisualStyleBackColor = true;
@@ -264,9 +280,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.ringPistonCheckBox.AutoSize = true;
             this.ringPistonCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ringPistonCheckBox.Location = new System.Drawing.Point(614, 536);
+            this.ringPistonCheckBox.Location = new System.Drawing.Point(460, 436);
+            this.ringPistonCheckBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ringPistonCheckBox.Name = "ringPistonCheckBox";
-            this.ringPistonCheckBox.Size = new System.Drawing.Size(175, 29);
+            this.ringPistonCheckBox.Size = new System.Drawing.Size(142, 24);
             this.ringPistonCheckBox.TabIndex = 49;
             this.ringPistonCheckBox.Text = "RING PISTONS";
             this.ringPistonCheckBox.UseVisualStyleBackColor = true;
@@ -278,9 +295,10 @@ namespace Fast_Lane_Mechanics
             this.nextButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.nextButton.ForeColor = System.Drawing.SystemColors.Desktop;
             this.nextButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.nextButton.Location = new System.Drawing.Point(683, 653);
+            this.nextButton.Location = new System.Drawing.Point(512, 531);
+            this.nextButton.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.nextButton.Name = "nextButton";
-            this.nextButton.Size = new System.Drawing.Size(125, 42);
+            this.nextButton.Size = new System.Drawing.Size(94, 34);
             this.nextButton.TabIndex = 52;
             this.nextButton.Text = "NEXT";
             this.nextButton.UseVisualStyleBackColor = false;
@@ -292,9 +310,10 @@ namespace Fast_Lane_Mechanics
             this.backButtonPressed.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backButtonPressed.ForeColor = System.Drawing.SystemColors.Desktop;
             this.backButtonPressed.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.backButtonPressed.Location = new System.Drawing.Point(27, 653);
+            this.backButtonPressed.Location = new System.Drawing.Point(20, 531);
+            this.backButtonPressed.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.backButtonPressed.Name = "backButtonPressed";
-            this.backButtonPressed.Size = new System.Drawing.Size(125, 42);
+            this.backButtonPressed.Size = new System.Drawing.Size(94, 34);
             this.backButtonPressed.TabIndex = 53;
             this.backButtonPressed.Text = "BACK";
             this.backButtonPressed.UseVisualStyleBackColor = false;
@@ -304,9 +323,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.oilChangePriceTextBox.Enabled = false;
             this.oilChangePriceTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oilChangePriceTextBox.Location = new System.Drawing.Point(27, 133);
+            this.oilChangePriceTextBox.Location = new System.Drawing.Point(20, 108);
+            this.oilChangePriceTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.oilChangePriceTextBox.Name = "oilChangePriceTextBox";
-            this.oilChangePriceTextBox.Size = new System.Drawing.Size(100, 27);
+            this.oilChangePriceTextBox.Size = new System.Drawing.Size(76, 23);
             this.oilChangePriceTextBox.TabIndex = 54;
             this.oilChangePriceTextBox.Text = "Price";
             this.oilChangePriceTextBox.TextChanged += new System.EventHandler(this.oilChangePriceTextBox_TextChanged);
@@ -315,9 +335,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.airFilterTextBox.Enabled = false;
             this.airFilterTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.airFilterTextBox.Location = new System.Drawing.Point(325, 133);
+            this.airFilterTextBox.Location = new System.Drawing.Point(244, 108);
+            this.airFilterTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.airFilterTextBox.Name = "airFilterTextBox";
-            this.airFilterTextBox.Size = new System.Drawing.Size(100, 27);
+            this.airFilterTextBox.Size = new System.Drawing.Size(76, 23);
             this.airFilterTextBox.TabIndex = 55;
             this.airFilterTextBox.Text = "Price";
             this.airFilterTextBox.TextChanged += new System.EventHandler(this.airFilterTextBox_TextChanged);
@@ -326,9 +347,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.oilFilterTextBox.Enabled = false;
             this.oilFilterTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oilFilterTextBox.Location = new System.Drawing.Point(614, 133);
+            this.oilFilterTextBox.Location = new System.Drawing.Point(460, 108);
+            this.oilFilterTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.oilFilterTextBox.Name = "oilFilterTextBox";
-            this.oilFilterTextBox.Size = new System.Drawing.Size(100, 27);
+            this.oilFilterTextBox.Size = new System.Drawing.Size(76, 23);
             this.oilFilterTextBox.TabIndex = 56;
             this.oilFilterTextBox.Text = "Price";
             this.oilFilterTextBox.TextChanged += new System.EventHandler(this.oilFilterTextBox_TextChanged);
@@ -337,9 +359,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.coolantFluidTextBox.Enabled = false;
             this.coolantFluidTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.coolantFluidTextBox.Location = new System.Drawing.Point(614, 247);
+            this.coolantFluidTextBox.Location = new System.Drawing.Point(460, 201);
+            this.coolantFluidTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.coolantFluidTextBox.Name = "coolantFluidTextBox";
-            this.coolantFluidTextBox.Size = new System.Drawing.Size(100, 27);
+            this.coolantFluidTextBox.Size = new System.Drawing.Size(76, 23);
             this.coolantFluidTextBox.TabIndex = 57;
             this.coolantFluidTextBox.Text = "Price";
             this.coolantFluidTextBox.TextChanged += new System.EventHandler(this.coolantFluidTextBox_TextChanged);
@@ -348,9 +371,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.brakePadTextBox.Enabled = false;
             this.brakePadTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.brakePadTextBox.Location = new System.Drawing.Point(27, 247);
+            this.brakePadTextBox.Location = new System.Drawing.Point(20, 201);
+            this.brakePadTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.brakePadTextBox.Name = "brakePadTextBox";
-            this.brakePadTextBox.Size = new System.Drawing.Size(100, 27);
+            this.brakePadTextBox.Size = new System.Drawing.Size(76, 23);
             this.brakePadTextBox.TabIndex = 58;
             this.brakePadTextBox.Text = "Price";
             this.brakePadTextBox.TextChanged += new System.EventHandler(this.brakePadTextBox_TextChanged);
@@ -359,9 +383,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.clutchPlateTextBox.Enabled = false;
             this.clutchPlateTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clutchPlateTextBox.Location = new System.Drawing.Point(325, 247);
+            this.clutchPlateTextBox.Location = new System.Drawing.Point(244, 201);
+            this.clutchPlateTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.clutchPlateTextBox.Name = "clutchPlateTextBox";
-            this.clutchPlateTextBox.Size = new System.Drawing.Size(100, 27);
+            this.clutchPlateTextBox.Size = new System.Drawing.Size(76, 23);
             this.clutchPlateTextBox.TabIndex = 59;
             this.clutchPlateTextBox.Text = "Price";
             this.clutchPlateTextBox.TextChanged += new System.EventHandler(this.clutchPlateTextBox_TextChanged);
@@ -370,9 +395,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.sparkPlugsTextBox.Enabled = false;
             this.sparkPlugsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sparkPlugsTextBox.Location = new System.Drawing.Point(27, 362);
+            this.sparkPlugsTextBox.Location = new System.Drawing.Point(20, 294);
+            this.sparkPlugsTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.sparkPlugsTextBox.Name = "sparkPlugsTextBox";
-            this.sparkPlugsTextBox.Size = new System.Drawing.Size(100, 27);
+            this.sparkPlugsTextBox.Size = new System.Drawing.Size(76, 23);
             this.sparkPlugsTextBox.TabIndex = 60;
             this.sparkPlugsTextBox.Text = "Price";
             this.sparkPlugsTextBox.TextChanged += new System.EventHandler(this.sparkPlugsTextBox_TextChanged);
@@ -381,9 +407,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.batteryChangeTextBox.Enabled = false;
             this.batteryChangeTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.batteryChangeTextBox.Location = new System.Drawing.Point(325, 362);
+            this.batteryChangeTextBox.Location = new System.Drawing.Point(244, 294);
+            this.batteryChangeTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.batteryChangeTextBox.Name = "batteryChangeTextBox";
-            this.batteryChangeTextBox.Size = new System.Drawing.Size(100, 27);
+            this.batteryChangeTextBox.Size = new System.Drawing.Size(76, 23);
             this.batteryChangeTextBox.TabIndex = 61;
             this.batteryChangeTextBox.Text = "Price";
             this.batteryChangeTextBox.TextChanged += new System.EventHandler(this.batteryChangeTextBox_TextChanged);
@@ -392,9 +419,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.engineBeltTextBox.Enabled = false;
             this.engineBeltTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.engineBeltTextBox.Location = new System.Drawing.Point(614, 362);
+            this.engineBeltTextBox.Location = new System.Drawing.Point(460, 294);
+            this.engineBeltTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.engineBeltTextBox.Name = "engineBeltTextBox";
-            this.engineBeltTextBox.Size = new System.Drawing.Size(100, 27);
+            this.engineBeltTextBox.Size = new System.Drawing.Size(76, 23);
             this.engineBeltTextBox.TabIndex = 62;
             this.engineBeltTextBox.Text = "Price";
             this.engineBeltTextBox.TextChanged += new System.EventHandler(this.engineBeltTextBox_TextChanged);
@@ -403,9 +431,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.tyreTextBox.Enabled = false;
             this.tyreTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tyreTextBox.Location = new System.Drawing.Point(614, 466);
+            this.tyreTextBox.Location = new System.Drawing.Point(460, 379);
+            this.tyreTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.tyreTextBox.Name = "tyreTextBox";
-            this.tyreTextBox.Size = new System.Drawing.Size(100, 27);
+            this.tyreTextBox.Size = new System.Drawing.Size(76, 23);
             this.tyreTextBox.TabIndex = 63;
             this.tyreTextBox.Text = "Price";
             this.tyreTextBox.TextChanged += new System.EventHandler(this.tyreTextBox_TextChanged);
@@ -414,9 +443,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.shocksTextBox.Enabled = false;
             this.shocksTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.shocksTextBox.Location = new System.Drawing.Point(325, 466);
+            this.shocksTextBox.Location = new System.Drawing.Point(244, 379);
+            this.shocksTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.shocksTextBox.Name = "shocksTextBox";
-            this.shocksTextBox.Size = new System.Drawing.Size(100, 27);
+            this.shocksTextBox.Size = new System.Drawing.Size(76, 23);
             this.shocksTextBox.TabIndex = 64;
             this.shocksTextBox.Text = "Price";
             this.shocksTextBox.TextChanged += new System.EventHandler(this.shocksTextBox_TextChanged);
@@ -425,9 +455,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.windshieldWipersTextBox.Enabled = false;
             this.windshieldWipersTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.windshieldWipersTextBox.Location = new System.Drawing.Point(27, 466);
+            this.windshieldWipersTextBox.Location = new System.Drawing.Point(20, 379);
+            this.windshieldWipersTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.windshieldWipersTextBox.Name = "windshieldWipersTextBox";
-            this.windshieldWipersTextBox.Size = new System.Drawing.Size(100, 27);
+            this.windshieldWipersTextBox.Size = new System.Drawing.Size(76, 23);
             this.windshieldWipersTextBox.TabIndex = 65;
             this.windshieldWipersTextBox.Text = "Price";
             this.windshieldWipersTextBox.TextChanged += new System.EventHandler(this.windshieldWipersTextBox_TextChanged);
@@ -436,9 +467,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.parkingLightsTextBox.Enabled = false;
             this.parkingLightsTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.parkingLightsTextBox.Location = new System.Drawing.Point(27, 571);
+            this.parkingLightsTextBox.Location = new System.Drawing.Point(20, 464);
+            this.parkingLightsTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.parkingLightsTextBox.Name = "parkingLightsTextBox";
-            this.parkingLightsTextBox.Size = new System.Drawing.Size(100, 27);
+            this.parkingLightsTextBox.Size = new System.Drawing.Size(76, 23);
             this.parkingLightsTextBox.TabIndex = 66;
             this.parkingLightsTextBox.Text = "Price";
             this.parkingLightsTextBox.TextChanged += new System.EventHandler(this.parkingLightsTextBox_TextChanged);
@@ -447,9 +479,10 @@ namespace Fast_Lane_Mechanics
             // 
             this.radiatorTextBox.Enabled = false;
             this.radiatorTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.radiatorTextBox.Location = new System.Drawing.Point(325, 571);
+            this.radiatorTextBox.Location = new System.Drawing.Point(244, 464);
+            this.radiatorTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.radiatorTextBox.Name = "radiatorTextBox";
-            this.radiatorTextBox.Size = new System.Drawing.Size(100, 27);
+            this.radiatorTextBox.Size = new System.Drawing.Size(76, 23);
             this.radiatorTextBox.TabIndex = 67;
             this.radiatorTextBox.Text = "Price";
             this.radiatorTextBox.TextChanged += new System.EventHandler(this.radiatorTextBox_TextChanged);
@@ -458,18 +491,19 @@ namespace Fast_Lane_Mechanics
             // 
             this.ringPistonTextBox.Enabled = false;
             this.ringPistonTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ringPistonTextBox.Location = new System.Drawing.Point(614, 571);
+            this.ringPistonTextBox.Location = new System.Drawing.Point(460, 464);
+            this.ringPistonTextBox.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ringPistonTextBox.Name = "ringPistonTextBox";
-            this.ringPistonTextBox.Size = new System.Drawing.Size(100, 27);
+            this.ringPistonTextBox.Size = new System.Drawing.Size(76, 23);
             this.ringPistonTextBox.TabIndex = 68;
             this.ringPistonTextBox.Text = "Price";
             this.ringPistonTextBox.TextChanged += new System.EventHandler(this.ringPistonTextBox_TextChanged);
             // 
-            // MaintaenanceForm
+            // MaintenanceForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(865, 718);
+            this.ClientSize = new System.Drawing.Size(649, 583);
             this.Controls.Add(this.ringPistonTextBox);
             this.Controls.Add(this.radiatorTextBox);
             this.Controls.Add(this.parkingLightsTextBox);
@@ -505,7 +539,8 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.maintanancePicture);
             this.Controls.Add(this.maintenanceLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "MaintaenanceForm";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "MaintenanceForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form6";
             this.Load += new System.EventHandler(this.maintenanceChargeForm_Load);
