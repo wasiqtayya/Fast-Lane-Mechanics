@@ -7,11 +7,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.OleDb;
+using connection.data_access_layer;
 
 namespace Fast_Lane_Mechanics
 {
     public partial class RegisterUserForm : Form
     {
+        clsConnection conn = new clsConnection();
+        int car_id;
         public RegisterUserForm()
         {
             InitializeComponent();
@@ -23,7 +27,16 @@ namespace Fast_Lane_Mechanics
             enginePowerBox.Hide();
             registerCutomerInfo.Hide();
 
+           
+            conn.textboxConnection("select id,brand_name from CarBrand", carManufacturerListBox, "brand_name", "id");
+            conn.textboxConnection("select id,car_model from CarModel", carModelListBox, "car_model", "id");
+            conn.comboboxConnection("select id,car_transmission from CarTransmission", selectTransmissionBox, "car_transmission", "id");
+            conn.comboboxConnection("select id,car_power_engine from CarEnginePower", enginePowerBox, "car_power_engine", "id");
+            
         }
+       
+
+        // SYSTEM MADE SELECTION
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -115,6 +128,13 @@ namespace Fast_Lane_Mechanics
             }else
             {
 
+
+
+                conn.dataSaveCarConnection(carManufacturerListBox.GetItemText(carManufacturerListBox.SelectedValue), selectTransmissionBox.GetItemText(selectTransmissionBox.SelectedValue), enginePowerBox.GetItemText(enginePowerBox.SelectedValue), carModelListBox.GetItemText(carModelListBox.SelectedValue));
+                //conn.dataSaveCustomerConnection(customerNameTextBox.Text);
+                conn.retriveDataFromAccess("select id from Car", "id");
+               
+
                 string message = "Success";
                 string title = "";
                 MessageBoxButtons buttons = MessageBoxButtons.OK;
@@ -156,6 +176,16 @@ namespace Fast_Lane_Mechanics
         }
 
         private void customerNameLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void enginePowerLabel_Click(object sender, EventArgs e)
         {
 
         }
