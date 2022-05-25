@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.OleDb;
+using connection.data_access_layer;
 namespace Fast_Lane_Mechanics
 {
     public partial class WorkerAddForm : Form
     {
+        clsConnection conn = new clsConnection();
         public WorkerAddForm()
         {
             InitializeComponent();
+            conn.textboxConnection("select id,worker_name from Worker", workerList, "worker_name", "id");
         }
 
         private void backButton_Click(object sender, EventArgs e)
@@ -31,12 +34,12 @@ namespace Fast_Lane_Mechanics
             this.Hide();
         }
 
-        private void removeButton_Click(object sender, EventArgs e)
+        private void workerList_SelectedIndexChanged(object sender, EventArgs e)
         {
-            workerList.Items.Remove(workerList.SelectedItem);
+
         }
 
-        private void workerList_SelectedIndexChanged(object sender, EventArgs e)
+        private void WorkerAddForm_Load(object sender, EventArgs e)
         {
 
         }

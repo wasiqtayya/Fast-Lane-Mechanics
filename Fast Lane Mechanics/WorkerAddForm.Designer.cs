@@ -31,7 +31,6 @@ namespace Fast_Lane_Mechanics
         {
             this.workerListLabel = new System.Windows.Forms.Label();
             this.workerList = new System.Windows.Forms.ListBox();
-            this.removeButton = new System.Windows.Forms.Button();
             this.addButton = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -63,20 +62,6 @@ namespace Fast_Lane_Mechanics
             this.workerList.Size = new System.Drawing.Size(226, 180);
             this.workerList.TabIndex = 18;
             this.workerList.SelectedIndexChanged += new System.EventHandler(this.workerList_SelectedIndexChanged);
-            // 
-            // removeButton
-            // 
-            this.removeButton.BackColor = System.Drawing.SystemColors.Window;
-            this.removeButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.removeButton.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.removeButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.removeButton.Location = new System.Drawing.Point(268, 165);
-            this.removeButton.Name = "removeButton";
-            this.removeButton.Size = new System.Drawing.Size(115, 42);
-            this.removeButton.TabIndex = 20;
-            this.removeButton.Text = "Remove";
-            this.removeButton.UseVisualStyleBackColor = false;
-            this.removeButton.Click += new System.EventHandler(this.removeButton_Click);
             // 
             // addButton
             // 
@@ -112,7 +97,6 @@ namespace Fast_Lane_Mechanics
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(402, 312);
             this.Controls.Add(this.backButton);
-            this.Controls.Add(this.removeButton);
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.workerList);
             this.Controls.Add(this.workerListLabel);
@@ -120,6 +104,7 @@ namespace Fast_Lane_Mechanics
             this.Name = "WorkerAddForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.WorkerAddForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -129,7 +114,6 @@ namespace Fast_Lane_Mechanics
 
         private System.Windows.Forms.Label workerListLabel;
         private System.Windows.Forms.ListBox workerList;
-        private System.Windows.Forms.Button removeButton;
         private System.Windows.Forms.Button addButton;
         private System.Windows.Forms.Button backButton;
     }

@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 using System.Data.OleDb;
 using System.Data;
 using System.Windows.Forms;
+using Fast_Lane_Mechanics;
 
 namespace connection.data_access_layer
 {
     internal class clsConnection
     {
         string connectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source = C:\Users\wasiq\Documents\FastLaneMechanics.accdb;Persist Security Info=False";
-        string car_id;
+        
         internal void textboxConnection(string command, ListBox items, string db_attribute, string db_attribute1)
         {
 
@@ -59,27 +60,70 @@ namespace connection.data_access_layer
 
         }
 
-        internal void dataSaveCarConnection(string brand,string transmission,string engine_id,string car_model)
+        internal void dataRetriveCarConnection(string brand_id, string car_transmission, string car_engine_id)
         {
             OleDbConnection conn = new OleDbConnection(connectionString);
 
             OleDbCommand cmd = new OleDbCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into Car (brand_id, car_transmission_id,car_engine_id,car_model_id) values(?,?,?,?)";
-            cmd.Parameters.AddWithValue("@brand_id", Convert.ToInt32(brand));
-            cmd.Parameters.AddWithValue("@car_transmission_id", Convert.ToInt32(transmission));
-            cmd.Parameters.AddWithValue("@car_engine_id", Convert.ToInt32(engine_id));
-            cmd.Parameters.AddWithValue("@car_model", Convert.ToInt32(car_model));
+            conn.Open();
+           
+            cmd.CommandText = "select id from Car where brand_id=" + brand_id + "and car_transmission_id =" + car_transmission + "and car_engine_id = "+ car_engine_id;
+            
+            OleDbDataReader reader;
+            reader = cmd.ExecuteReader();
+
+            if (reader.Read())
+            {
+                string id = reader["id"].ToString();
+                Program.car_id = Convert.ToInt32(id);
+                
+            }
+           
+            conn.Close();
+          
+        }
+
+        internal void dataRetriveCustomerConnection()
+        {
+            OleDbConnection conn = new OleDbConnection(connectionString);
+
+            OleDbCommand cmd = new OleDbCommand();
+            cmd.Connection = conn;
+            conn.Open();
+
+            cmd.CommandText = "select id from Customer where id = (select max(id) from Customer)";
+
+            OleDbDataReader reader;
+            reader = cmd.ExecuteReader();
+
+            if (reader.Read())
+            {
+                string id = reader["id"].ToString();
+                Program.customer_id = Convert.ToInt32(id);
+
+            }
+
+            conn.Close();
+
+        }
+
+        internal void dataSaveWorkerConnection(string worker_name)
+        {
+            OleDbConnection conn = new OleDbConnection(connectionString);
+
+            OleDbCommand cmd = new OleDbCommand();
+            cmd.Connection = conn;
+            cmd.CommandText = "insert into Worker (worker_name) values(?)";
+            cmd.Parameters.AddWithValue("@worker_name", worker_name);
+
 
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
         }
 
-
-
-
-         internal void dataSaveCustomerConnection(string customer_name)
+        internal void dataSaveCustomerConnection(string customer_name)
         {
             OleDbConnection conn = new OleDbConnection(connectionString);
 
@@ -95,43 +139,47 @@ namespace connection.data_access_layer
         }
 
 
-        internal void dataSaveCustomerMetaConnection(string customer_id,string plate_number,string car_id)
+        internal void dataSaveCustomerMetaConnection(int customer_id,string plate_number,int car_id,int car_model)
         {
             OleDbConnection conn = new OleDbConnection(connectionString);
 
             OleDbCommand cmd = new OleDbCommand();
             cmd.Connection = conn;
-            cmd.CommandText = "insert into CustomerMeta (customer_id, plate_no, car_id) values(?,?,?)";
-            cmd.Parameters.AddWithValue("@customer_id", Convert.ToInt32(customer_id));
+            cmd.CommandText = "insert into CustomerMeta (customer_id, plate_no, car_id ,car_model_id) values(?,?,?,?)";
+            cmd.Parameters.AddWithValue("@customer_id", customer_id);
             cmd.Parameters.AddWithValue("@plate_no", plate_number);
-            cmd.Parameters.AddWithValue("@car_id", Convert.ToInt32(car_id));
+            cmd.Parameters.AddWithValue("@car_id", car_id);
+            cmd.Parameters.AddWithValue("@car_model,id", car_model);
 
             conn.Open();
             cmd.ExecuteNonQuery();
             conn.Close();
         }
-        internal void retriveDataFromAccess(string command, string db_attribute)
-        {
 
+
+        internal void dataRetriveLoginConnection()
+        {
             OleDbConnection conn = new OleDbConnection(connectionString);
-            conn.Open();
+
             OleDbCommand cmd = new OleDbCommand();
             cmd.Connection = conn;
-            cmd.CommandText = command;
+            conn.Open();
+
+            cmd.CommandText = "select id,username from Login where id = 1";
 
             OleDbDataReader reader;
             reader = cmd.ExecuteReader();
 
             if (reader.Read())
             {
-                car_id = reader[db_attribute].ToString();
-                MessageBox.Show(car_id);
-            }else
-            {
-                MessageBox.Show("Data Read Error");
+                string username = reader["username"].ToString();
+                Program.username = username;
+
             }
+
             conn.Close();
 
         }
+
     }
 }

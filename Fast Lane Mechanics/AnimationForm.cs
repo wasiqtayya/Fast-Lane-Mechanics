@@ -34,23 +34,10 @@ namespace Fast_Lane_Mechanics
             if (loadingBar.Value == 100)
             {
                 loadingTimer.Enabled = false;
-                if (Program.index_number == 17)
-                {
-                    ModificationChargeForm form = new ModificationChargeForm();
-                    form.Show();
-                    this.Hide();
-                }else if (Program.index_number == 18)
-                {
-                    ModificationChargeForm form = new ModificationChargeForm();
-                    form.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    PlateNumberLoginForm form = new PlateNumberLoginForm();
-                    form.Show();
-                    this.Hide();
-                }
+               
+                PlateNumberLoginForm form = new PlateNumberLoginForm();
+                form.Show();
+                this.Hide();
                
             }
         }

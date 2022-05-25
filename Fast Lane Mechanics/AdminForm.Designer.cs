@@ -31,7 +31,7 @@ namespace Fast_Lane_Mechanics
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
             this.usernameLabel = new System.Windows.Forms.Label();
-            this.registrationPlate = new System.Windows.Forms.TextBox();
+            this.usernameTextBox = new System.Windows.Forms.TextBox();
             this.workerListButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.getStartedButton = new System.Windows.Forms.Button();
@@ -51,21 +51,21 @@ namespace Fast_Lane_Mechanics
             this.usernameLabel.Text = "Username";
             this.usernameLabel.Click += new System.EventHandler(this.plateNumberLabel_Click);
             // 
-            // registrationPlate
+            // usernameTextBox
             // 
-            this.registrationPlate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.usernameTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.registrationPlate.BackColor = System.Drawing.SystemColors.Window;
-            this.registrationPlate.Enabled = false;
-            this.registrationPlate.Font = new System.Drawing.Font("Lucida Console", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.registrationPlate.ForeColor = System.Drawing.SystemColors.Window;
-            this.registrationPlate.Location = new System.Drawing.Point(64, 247);
-            this.registrationPlate.Margin = new System.Windows.Forms.Padding(4);
-            this.registrationPlate.Name = "registrationPlate";
-            this.registrationPlate.Size = new System.Drawing.Size(352, 29);
-            this.registrationPlate.TabIndex = 8;
-            this.registrationPlate.TextChanged += new System.EventHandler(this.registrationPlate_TextChanged);
+            this.usernameTextBox.BackColor = System.Drawing.SystemColors.Window;
+            this.usernameTextBox.Enabled = false;
+            this.usernameTextBox.Font = new System.Drawing.Font("Lucida Console", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.usernameTextBox.ForeColor = System.Drawing.SystemColors.Window;
+            this.usernameTextBox.Location = new System.Drawing.Point(64, 247);
+            this.usernameTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.usernameTextBox.Name = "usernameTextBox";
+            this.usernameTextBox.Size = new System.Drawing.Size(352, 29);
+            this.usernameTextBox.TabIndex = 8;
+            this.usernameTextBox.TextChanged += new System.EventHandler(this.registrationPlate_TextChanged);
             // 
             // workerListButton
             // 
@@ -129,7 +129,7 @@ namespace Fast_Lane_Mechanics
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.workerListButton);
             this.Controls.Add(this.usernameLabel);
-            this.Controls.Add(this.registrationPlate);
+            this.Controls.Add(this.usernameTextBox);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AdminForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -144,7 +144,7 @@ namespace Fast_Lane_Mechanics
         #endregion
 
         private System.Windows.Forms.Label usernameLabel;
-        private System.Windows.Forms.TextBox registrationPlate;
+        private System.Windows.Forms.TextBox usernameTextBox;
         private System.Windows.Forms.Button workerListButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.Button getStartedButton;

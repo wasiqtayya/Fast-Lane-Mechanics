@@ -24,9 +24,7 @@ namespace Fast_Lane_Mechanics
           if (loadingBar.Value == 100)   
             {
               loadingTimer.Enabled = false;
-              MaintenanceForm form = new MaintenanceForm();
-              form.Show();
-              this.Hide();
+              
             }
         }
 

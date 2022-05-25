@@ -8,7 +8,10 @@ namespace Fast_Lane_Mechanics
 {
     static class Program
     {
-        static public int index_number;
+
+        static public string username;
+        static public int car_id;
+        static public int customer_id;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -17,7 +20,7 @@ namespace Fast_Lane_Mechanics
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new RegisterUserForm());
+            Application.Run(new SplashForm());
         }
     }
 }

@@ -46,17 +46,30 @@ namespace Fast_Lane_Mechanics
             }
             else
             {
-                AdminForm form = new AdminForm();
-                form.Show();
-                this.Hide();
+                string username = "admin";
+                string password = "admin";
+
+                if (usernameTextBox.Text == username && passwordTextBox.Text == password)
+                {
+                    AdminForm form = new AdminForm();
+                    form.Show();
+                    this.Hide();
+                }else
+                {
+                    MessageBox.Show("Invalid Credential");
+                }
+
+               
             }
 
-
-
-            
         }
 
         private void LoginForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void usernameTextBox_TextChanged(object sender, EventArgs e)
         {
 
         }

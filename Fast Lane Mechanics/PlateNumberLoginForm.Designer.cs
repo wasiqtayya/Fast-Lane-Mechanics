@@ -79,7 +79,7 @@ namespace Fast_Lane_Mechanics
             this.registrationPlate.BackColor = System.Drawing.SystemColors.Window;
             this.registrationPlate.Font = new System.Drawing.Font("Lucida Console", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrationPlate.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.registrationPlate.Location = new System.Drawing.Point(85, 280);
+            this.registrationPlate.Location = new System.Drawing.Point(85, 285);
             this.registrationPlate.Margin = new System.Windows.Forms.Padding(4);
             this.registrationPlate.Name = "registrationPlate";
             this.registrationPlate.Size = new System.Drawing.Size(277, 29);
@@ -91,7 +91,7 @@ namespace Fast_Lane_Mechanics
             this.plateNumberLabel.AutoSize = true;
             this.plateNumberLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plateNumberLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.plateNumberLabel.Location = new System.Drawing.Point(81, 253);
+            this.plateNumberLabel.Location = new System.Drawing.Point(81, 258);
             this.plateNumberLabel.Name = "plateNumberLabel";
             this.plateNumberLabel.Size = new System.Drawing.Size(174, 20);
             this.plateNumberLabel.TabIndex = 7;
@@ -104,7 +104,7 @@ namespace Fast_Lane_Mechanics
             this.enterPlateButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enterPlateButton.ForeColor = System.Drawing.SystemColors.Desktop;
             this.enterPlateButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.enterPlateButton.Location = new System.Drawing.Point(146, 387);
+            this.enterPlateButton.Location = new System.Drawing.Point(237, 351);
             this.enterPlateButton.Name = "enterPlateButton";
             this.enterPlateButton.Size = new System.Drawing.Size(125, 42);
             this.enterPlateButton.TabIndex = 13;
@@ -118,7 +118,7 @@ namespace Fast_Lane_Mechanics
             this.backButton.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backButton.ForeColor = System.Drawing.SystemColors.Desktop;
             this.backButton.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.backButton.Location = new System.Drawing.Point(168, 440);
+            this.backButton.Location = new System.Drawing.Point(85, 351);
             this.backButton.Name = "backButton";
             this.backButton.Size = new System.Drawing.Size(80, 42);
             this.backButton.TabIndex = 14;
@@ -132,7 +132,7 @@ namespace Fast_Lane_Mechanics
             this.button2.Font = new System.Drawing.Font("Lucida Sans Unicode", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.Desktop;
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.Location = new System.Drawing.Point(237, 325);
+            this.button2.Location = new System.Drawing.Point(147, 415);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(125, 42);
             this.button2.TabIndex = 15;

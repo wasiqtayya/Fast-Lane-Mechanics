@@ -97,17 +97,11 @@
     <Compile Include="FinalInvoiceForm.Designer.cs">
       <DependentUpon>FinalInvoiceForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="InvoiveAnimationForm.cs.cs">
+    <Compile Include="InvoiveAnimationForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InvoiveAnimationForm.cs.Designer.cs">
-      <DependentUpon>InvoiveAnimationForm.cs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ModificationChargeForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ModificationChargeForm.Designer.cs">
-      <DependentUpon>ModificationChargeForm.cs</DependentUpon>
+    <Compile Include="InvoiveAnimationForm.Designer.cs">
+      <DependentUpon>InvoiveAnimationForm.cs</DependentUpon>
     </Compile>
     <Compile Include="WorkerAddForm.cs">
       <SubType>Form</SubType>
@@ -139,18 +133,6 @@
     <Compile Include="RegisterWorkerForm.Designer.cs">
       <DependentUpon>RegisterWorkerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="CarMaintenanceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CarMaintenanceForm.Designer.cs">
-      <DependentUpon>CarMaintenanceForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="MaintenanceForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="MaintenanceForm.Designer.cs">
-      <DependentUpon>MaintenanceForm.cs</DependentUpon>
-    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,11 +156,8 @@
     <EmbeddedResource Include="FinalInvoiceForm.resx">
       <DependentUpon>FinalInvoiceForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InvoiveAnimationForm.cs.resx">
-      <DependentUpon>InvoiveAnimationForm.cs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ModificationChargeForm.resx">
-      <DependentUpon>ModificationChargeForm.cs</DependentUpon>
+    <EmbeddedResource Include="InvoiveAnimationForm.resx">
+      <DependentUpon>InvoiveAnimationForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SplashForm.resx">
       <DependentUpon>SplashForm.cs</DependentUpon>
@@ -191,12 +170,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="RegisterWorkerForm.resx">
       <DependentUpon>RegisterWorkerForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CarMaintenanceForm.resx">
-      <DependentUpon>CarMaintenanceForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MaintenanceForm.resx">
-      <DependentUpon>MaintenanceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

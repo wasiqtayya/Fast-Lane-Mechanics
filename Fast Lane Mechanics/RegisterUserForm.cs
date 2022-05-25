@@ -130,9 +130,12 @@ namespace Fast_Lane_Mechanics
 
 
 
-                conn.dataSaveCarConnection(carManufacturerListBox.GetItemText(carManufacturerListBox.SelectedValue), selectTransmissionBox.GetItemText(selectTransmissionBox.SelectedValue), enginePowerBox.GetItemText(enginePowerBox.SelectedValue), carModelListBox.GetItemText(carModelListBox.SelectedValue));
-                //conn.dataSaveCustomerConnection(customerNameTextBox.Text);
-                conn.retriveDataFromAccess("select id from Car", "id");
+                conn.dataRetriveCarConnection(carManufacturerListBox.GetItemText(carManufacturerListBox.SelectedValue),selectTransmissionBox.GetItemText(selectTransmissionBox.SelectedValue),enginePowerBox.GetItemText(enginePowerBox.SelectedValue));
+                conn.dataSaveCustomerConnection(customerNameTextBox.Text);
+                conn.dataRetriveCustomerConnection();
+
+                int car_model = Convert.ToInt32(carModelListBox.GetItemText(carModelListBox.SelectedValue));
+                conn.dataSaveCustomerMetaConnection(Program.customer_id, plateNumberTextBox.Text, Program.car_id, car_model);
                
 
                 string message = "Success";

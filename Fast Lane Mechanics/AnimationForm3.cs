@@ -35,5 +35,10 @@ namespace Fast_Lane_Mechanics
                 form.Show();
             }
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

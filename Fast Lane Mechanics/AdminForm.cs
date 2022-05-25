@@ -7,14 +7,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.OleDb;
+using connection.data_access_layer;
+using Fast_Lane_Mechanics;
 namespace Fast_Lane_Mechanics
 {
     public partial class AdminForm : Form
     {
+        clsConnection conn = new clsConnection();
         public AdminForm()
         {
             InitializeComponent();
+            conn.dataRetriveLoginConnection();
+            usernameTextBox.Text = Program.username;
         }
 
         private void plateNumberLabel_Click(object sender, EventArgs e)
